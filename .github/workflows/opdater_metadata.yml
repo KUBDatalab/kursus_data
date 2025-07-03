@@ -4,11 +4,11 @@ on:
   schedule:
     - cron: '0 1 * * *'
 
-name: Opdater kursus metadata
+name: Opdater_kursus_metadata
 
 jobs:
   render:
-    name: opdaterer metadata
+    name: opdaterer_metadata
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
