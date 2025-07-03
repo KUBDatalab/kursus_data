@@ -53,7 +53,6 @@ hent_sanerede_tilm_data <- function(id){
 
 
 
-
 # Hvis der mangler tilmeldingsdata - hent dem.
 if(length(manglende_ids < 0)){
 
