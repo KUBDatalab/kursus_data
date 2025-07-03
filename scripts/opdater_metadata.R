@@ -91,7 +91,7 @@ nye_meta_data <- data %>% unnest_wider(events) %>%
   unnest_longer(category) %>% 
   unnest_wider(category, names_sep = "_") 
 
-
+print("data hentet")
 
 nye_meta_data %>% 
   type_convert() %>% filter(!(id %in% meta_data$id)) %>% 
