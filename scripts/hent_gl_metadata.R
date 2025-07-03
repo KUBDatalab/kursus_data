@@ -116,6 +116,5 @@ meta_data <- meta_data %>%
   unnest_wider(category, names_sep = "_")
 
 meta_data %>% 
-  filter(id != 4216764)  %>% 
   write_csv2(file = "data/kursus_metadata.csv")
 
