@@ -93,7 +93,13 @@ nye_meta_data <- data %>% unnest_wider(events) %>%
 
 print("data hentet")
 
-nye_meta_data %>% 
-  type_convert() %>% filter(!(id %in% meta_data$id)) %>% 
-  bind_rows(meta_data) %>% 
-  write_csv2("data/kursus_metadata.csv")
+
+# konvertere til korrekt type, og filtrerer eksisterende kursus-id'er ud.
+nye_meta_data <- nye_meta_data %>% 
+  type_convert() %>% filter(!(id %in% meta_data$id))
+
+if(nrow(nye_meta_data != 0)){
+  nye_meta_data %>% 
+    bind_rows(meta_data) %>% 
+    write_csv2("data/kursus_metadata.csv")
+  }
