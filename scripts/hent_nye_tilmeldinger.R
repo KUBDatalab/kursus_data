@@ -48,10 +48,10 @@ tilm_col_spec <- cols(
   booking_id = col_double(),
   registration_type = col_character(),
   first_name = col_logical(),
-  barcode = col_logical(),
-  phone = col_logical(),
+  barcode = col_character(),
+  phone = col_character(),
   email = col_character(),
-  registered_date = col_datetime(format = ""),
+  registered_date = col_character(),
   attendance = col_character(),
   qid = col_double(),
   question = col_character(),
@@ -65,7 +65,7 @@ manglende_ids <- setdiff(meta_data$id, tilm_data$event_id)
 
 # definerer hjælpe funktion til at hente sanerede tilmeldingsdata
 hent_sanerede_tilm_data <- function(id){
-  Sys.sleep(0)
+  Sys.sleep(1)
   get_signup_details(id, token) %>% 
     saner_tilmeldings_data()
 }
