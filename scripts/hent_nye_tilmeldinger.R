@@ -39,28 +39,42 @@ token <- get_token(client_secret = client_secret)
 # henter kursus-id fra metadata filen
 meta_data <- read_csv2("data/kursus_metadata.csv") 
 
+# definerer col_spec til indlæsning af tilmeldingsdata
+
+tilm_col_spec <- cols(
+  event_id = col_double(),
+  tilm_type = col_character(),
+  last_name = col_logical(),
+  booking_id = col_double(),
+  registration_type = col_character(),
+  first_name = col_logical(),
+  barcode = col_logical(),
+  phone = col_logical(),
+  email = col_character(),
+  registered_date = col_datetime(format = ""),
+  attendance = col_character(),
+  qid = col_double(),
+  question = col_character(),
+  answer = col_character()
+)
 # Henter eksisterende kursus-ider fra tilmeldings filen
-tilm_data <- read_csv2("data/tilmeldings_data.csv") 
+tilm_data <- read_csv2("data/tilmeldings_data.csv", col_types = tilm_col_spec) 
 
 # Identificerer manglede tilmeldingsdata
 manglende_ids <- setdiff(meta_data$id, tilm_data$event_id)
 
 # definerer hjælpe funktion til at hente sanerede tilmeldingsdata
 hent_sanerede_tilm_data <- function(id){
+  Sys.sleep(0)
   get_signup_details(id, token) %>% 
     saner_tilmeldings_data()
 }
 
-
-
 # Hvis der mangler tilmeldingsdata - hent dem.
-if(length(manglende_ids < 0)){
-
-
+if(length(manglende_ids)>0){
 nye_tilm_data <- do.call(bind_rows, lapply(manglende_ids, hent_sanerede_tilm_data))
 
 nye_tilm_data %>% 
-  type_convert() %>% 
   bind_rows(tilm_data) %>% 
   write_csv2("data/tilmeldings_data.csv")
 }
