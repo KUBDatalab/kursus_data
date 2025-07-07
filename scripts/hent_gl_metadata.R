@@ -49,7 +49,7 @@ get_events <- function(calid, year){
       cal_id = calid,
       date = dato,
       days = 365,
-      limit = 490
+      limit = 500
     )
   )
   GET(url, add_headers('Authorization' = paste("bearer", token))) %>% 
