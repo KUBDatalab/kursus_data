@@ -1,0 +1,75 @@
+---
+title: "Kursustilmeldinger"
+author: "Christian Knudsen"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(knitr)
+meta_data <- read_csv2("data/kursus_metadata.csv")
+meta_data <- meta_data %>% 
+  select(-c(allday, -public, public, admin, end, campus_id, location_type, location_id, calendar_id, owner_name,
+            owner_id, category_id, calendar_name, calendar_public, calendar_admin, presenter, color, 
+            featured_image, geolocation, registration_cost, more_info, setup_time, teardown_time, 
+            audience_1_id, audience_1_name, registration_form_id, registration_series_linked,
+            has_registration_opened, registration, has_registration_closed, zoom_email, online_user_id, 
+            online_meeting_id, online_host_url, online_join_url, online_join_password, online_provider,
+            campus_1, audience_2_id, audience_2_name, audience_3_id, audience_3_name))
+tilmeldinger <- read_csv2("data/tilmeldings_data.csv")
+```
+Vi analyserer her ialt `r nrow(distinct(meta_data, id))` registreringer fra 
+vore kursustilmeldinger, der strækker sig fra `r min(meta_data$start)` til
+`r max(meta_data$end)`
+
+
+Udvikling i antal kurser over årene:
+
+```{r}
+meta_data %>% 
+  distinct(id, .keep_all = TRUE) %>% 
+  count(år = year(start), name = "antal") %>% 
+  kable()
+```
+
+Eller, grafisk fremstillet:
+
+```{r}
+meta_data %>% 
+  distinct(id, .keep_all = TRUE) %>% 
+  count(år = year(start), name = "antal") %>% 
+  ggplot(aes(x= år, y = antal)) +
+  geom_point() +
+  geom_line() +
+  ggtitle("Antal udbudte aktiviteter over årene", subtitle = "Bemærk at data er til dato, hvorfor tallene for 2025 er som de er")
+```
+tilmeldinger - og ventelister, pr. kursus.
+```{r}
+tilm_pr_event <- tilmeldinger %>% 
+  group_by(event_id, tilm_type) %>% 
+  distinct(booking_id, .keep_all = TRUE) %>% 
+  mutate(antal = !is.na(booking_id), .after = last_name) %>% 
+  summarise(antal = sum(antal)) %>% 
+  pivot_wider(names_from = tilm_type, values_from = antal, values_fill = 0)
+```
+
+
+```{r}
+meta_data %>% 
+  mutate(value = 1) %>% 
+  pivot_wider(names_from = category_name, values_from = value) %>% 
+  right_join(tilm_pr_event, by = c("id" = "event_id")) %>% 
+  select(id, title, start, registrants, waitlist, seats) %>% 
+  mutate(andel_fyldt = registrants/seats)
+```
+
+
+```{r}
+meta_data %>% filter(id == 3661348)
+```
+
