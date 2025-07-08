@@ -2,7 +2,7 @@ name: run_analyse
 
 on:
   workflow_run:
-    workflows: ["hent_nye_tilmeldinger"]
+    workflows: ["Opdater kursus tilmeldinger"]
     types:
       - completed
 
