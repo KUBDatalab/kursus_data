@@ -1,14 +1,14 @@
+name: run_analyse
+
 on:
   workflow_run:
     workflows: ["hent_nye_tilmeldinger"]
     types:
       - completed
 
-name: run_analayse
-
 jobs:
-  render:
-    name: foretager analyse
+  analyse:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,6 +16,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
+          sudo apt-get install -y pandoc
           sudo apt-get install -y libcurl4-openssl-dev
           sudo apt-get install -y libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
           sudo apt-get install -y libfontconfig1-dev libfreetype6-dev libfribidi-dev libharfbuzz-dev
@@ -24,8 +25,8 @@ jobs:
           Rscript -e 'install.packages("curl")'
           Rscript -e 'install.packages("here")'
           Rscript -e 'install.packages("tidyverse")'
-          Rscript -e 'install.packages("knitr"),
-          Rscript -e 'install.packages("rmarkdown"),
+          Rscript -e 'install.packages("knitr")'
+          Rscript -e 'install.packages("rmarkdown")'
           Rscript -e 'install.packages("httr")'
           Rscript -e 'install.packages("httr2")'
           Rscript -e 'install.packages("readr")'
