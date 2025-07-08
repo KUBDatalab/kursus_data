@@ -4,7 +4,7 @@ on:
     types:
       - completed
 
-name: Opdater kursus tilmeldinger
+name: run_analayse
 
 jobs:
   render:
