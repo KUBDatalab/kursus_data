@@ -1,5 +1,5 @@
-# library(tidyverse)
-# test at denne kan klare sig uden tidyverse.'
+library(tidyverse)
+# test at denne kan klare sig uden tidyverse.' det kan det ikke helt...
 # opdater derefter den tilhørende yaml fil mhp hurtigere kørsel.
 # overvej også at refaktorisere mhp at slippe af med i hvert fald lubridate
 

@@ -30,8 +30,93 @@ vore kursustilmeldinger, der strækker sig fra `r min(meta_data$start)` til
 Det fører til sådan ca. `r tilmeldinger %>% distinct(booking_id) %>% nrow()` 
 bookinger, inklusive de der er endt på ventelisten.
 
+## Hvad gør vi?
+
+Hver nat kl. 1 (UTC), kører tre scripts på GitHub. Gennem et api-kald til
+vores kalendersystem trækkes data på samtlige kurser fra 1. januar det aktuelle år, og
+365 dage frem, i Datalabs kursuskalender.
+Kurserne har et ID-nummer, der sammenholdes med de kurser der tidligere er blevet
+hentet. De kurser der ikke allerede er gemt data for, og som ikke ligger i 
+fremtiden, får gemt deres metadata.
+
+Dernæst kører script nr. to. Det kigger på de kursus-ID'er der nu ligger i
+metadata registreringen. De sammenholdes med tilmedlingsdata der tidligerer er
+blevet gemt. Hvis kursus-ID'et ikke optræder dér, er det fordi det ikke har
+fået hentet tilmeldingsdata. De tilmeldingsdata hentes og saneres for at justere på
+strukturen. Et gæstimat på kønnet af deltageren foretages på baggrund 
+af fornavnet, hvorefter data saneres for at fjerne personhenførbare data. Og så 
+gemmes det.
+
+Tredie script kører derefter. Det er det script der genererer denne side. 
+Vi har med andre ord ret opdaterede data her.
+
+I den aktuelle opsætning er det noget der tager ret lang tid; robusthed fremfor
+tempo!
 
 
+## Hvad mangler?
+
+Vi har gemt regneark med tilmeldingsdata i et års tid. Der er data vi kan
+bruge til at gæstimere kønnet på de tilmeldte. Og vi har også svar på de spørgsmål
+vi stiller dem. Det skal vi have konsolideret med de data vi henter ind her.
+
+Vi har også gennem en længere periode automatisk indsamlet antallet af 
+tilmeldinger, blandt andet mhp at lave vores observationslister, hvor vi ser
+på hvor fyldte kurserne er. Her er der også metadata der bør bruges til at berige
+de data vi har her.
+
+Disse to berigelser er relativt enkle at lave. Største udfordring er forskellen
+i præcisionen af det rapporterede tilmeldingstidspunkt. 
+
+Den svære er at hægte de her data sammen med registreringen af deltagertallene.
+Det bør kunne lade sig gøre, men er ikke helt enkelt, hvis det ikke skal gøres
+manuelt.
+
+## Jeg synes der er noget der mangler?
+
+Hvis du har et spørgsmål der kan besvares med de data der er tilgængelige (og
+altså derfor med forbehold for de tre punkter nævnt ovenfor), kan det besvares.
+Formentlig ret hurtigt. Men det vil være fremmende for processen hvis jeg får 
+spørgsmålet 15 minutter før du gerne vil have svaret. Så kast en mail, eller 
+endnu bedre, smid et [issue på GitHub](https://github.com/KUBDatalab/kursus_data/issues/new)
+så fixer jeg det.
+
+## Kan vi få svar på?
+
+Formentlig, se ovenstående for hele to måder at få et svar (man kan selvfølgelig
+også selv downloade data fra https://github.com/KUBDatalab/kursus_data/tree/main/data
+og selv analysere).
+
+Men. Der er grænser, for vi kan kun svare på ting som data understøtter svar på.
+
+Vi har pt to tabeller.
+
+Metadata med metadata for kurserne
+```{r}
+meta_data %>% 
+  slice(201) %>% 
+  glimpse()
+```
+og tilmeldingsdata for tilmeldingerne:
+
+```{r}
+tilmeldinger %>% 
+  filter(!is.na(first_name)) %>% 
+  glimpse()
+  
+```
+Nej, der er ikke noget eksempeldata. Hvis der den 16. juli er, så har setuppet
+her bestået sidste test.
+
+Eventid for tilmeldingen hænger sammen med id for kurset. Og first_name 
+indeholder et gæstimat af kønnet baseret på fornavnet. Så hvis du vil
+vide om der er forskel på det tidspunkt på dagen de studerende tilmelder sig
+når kurset har kategorien "english" kontra tidspunktet når det er kategorien
+"Python", så kan vi svare på det. Vær dog opmærksom på at kategorierne
+i kursusmetadata ikke er bedre end dem du selv har lagt ind...
+
+
+# Og så til tallene!
 
 Udvikling i antal kurser over årene:
 
@@ -92,4 +177,6 @@ meta_data %>%
 ```{r}
 meta_data %>% filter(id == 3661348)
 ```
+
+
 
