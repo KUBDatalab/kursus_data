@@ -50,8 +50,8 @@ gemmes det.
 Tredie script kører derefter. Det er det script der genererer denne side. 
 Vi har med andre ord ret opdaterede data her.
 
-I den aktuelle opsætning er det noget der tager ret lang tid; robusthed fremfor
-tempo!
+I den aktuelle opsætning er det noget der tager ret lang tid ~45 minutter; 
+robusthed fremfor tempo! 
 
 
 ## Hvad mangler?
@@ -72,6 +72,11 @@ Den svære er at hægte de her data sammen med registreringen af deltagertallene
 Det bør kunne lade sig gøre, men er ikke helt enkelt, hvis det ikke skal gøres
 manuelt.
 
+Og så er vi begrænset af de data vi faktisk har gemt. Hvis ikke der er sat
+en kategori på der hedder "R" kan vi pt ikke se på kurset at det er et R-kursus.
+Eller - det kan vi godt, vi skal bare trække det ud fra beskrivelsen. Og "R" er 
+ikke en specielt fantastisk søgeterm... Det finder vi nok også en løsning på.
+
 ## Jeg synes der er noget der mangler?
 
 Hvis du har et spørgsmål der kan besvares med de data der er tilgængelige (og
@@ -81,7 +86,7 @@ spørgsmålet 15 minutter før du gerne vil have svaret. Så kast en mail, eller
 endnu bedre, smid et [issue på GitHub](https://github.com/KUBDatalab/kursus_data/issues/new)
 så fixer jeg det.
 
-## Kan vi få svar på?
+## Kan vi få svar på X?
 
 Formentlig, se ovenstående for hele to måder at få et svar (man kan selvfølgelig
 også selv downloade data fra https://github.com/KUBDatalab/kursus_data/tree/main/data
@@ -174,9 +179,7 @@ meta_data %>%
 ```
 
 
-```{r}
-meta_data %>% filter(id == 3661348)
-```
+
 
 
 

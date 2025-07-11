@@ -1,4 +1,4 @@
-# Henter historiske events skal kun køre en gang.
+# Henter historiske events fra api'en skal kun køre en gang.
 
 library(tidyverse)
 library(httr2)
