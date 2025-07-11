@@ -50,8 +50,8 @@ gemmes det.
 Tredie script kører derefter. Det er det script der genererer denne side. 
 Vi har med andre ord ret opdaterede data her.
 
-I den aktuelle opsætning er det noget der tager ret lang tid; robusthed fremfor
-tempo!
+I den aktuelle opsætning er det noget der tager ret lang tid ~45 minutter; 
+robusthed fremfor tempo! 
 
 
 ## Hvad mangler?
@@ -72,6 +72,11 @@ Den svære er at hægte de her data sammen med registreringen af deltagertallene
 Det bør kunne lade sig gøre, men er ikke helt enkelt, hvis det ikke skal gøres
 manuelt.
 
+Og så er vi begrænset af de data vi faktisk har gemt. Hvis ikke der er sat
+en kategori på der hedder "R" kan vi pt ikke se på kurset at det er et R-kursus.
+Eller - det kan vi godt, vi skal bare trække det ud fra beskrivelsen. Og "R" er 
+ikke en specielt fantastisk søgeterm... Det finder vi nok også en løsning på.
+
 ## Jeg synes der er noget der mangler?
 
 Hvis du har et spørgsmål der kan besvares med de data der er tilgængelige (og
@@ -81,7 +86,7 @@ spørgsmålet 15 minutter før du gerne vil have svaret. Så kast en mail, eller
 endnu bedre, smid et [issue på GitHub](https://github.com/KUBDatalab/kursus_data/issues/new)
 så fixer jeg det.
 
-## Kan vi få svar på?
+## Kan vi få svar på X?
 
 Formentlig, se ovenstående for hele to måder at få et svar (man kan selvfølgelig
 også selv downloade data fra https://github.com/KUBDatalab/kursus_data/tree/main/data
@@ -101,7 +106,7 @@ og tilmeldingsdata for tilmeldingerne:
 
 ```{r}
 tilmeldinger %>% 
-  filter(!is.na(first_name)) %>% 
+  filter(event_id == 4381177) %>% 
   glimpse()
   
 ```
@@ -109,7 +114,11 @@ Nej, der er ikke noget eksempeldata. Hvis der den 16. juli er, så har setuppet
 her bestået sidste test.
 
 Eventid for tilmeldingen hænger sammen med id for kurset. Og first_name 
-indeholder et gæstimat af kønnet baseret på fornavnet. Så hvis du vil
+indeholder et gæstimat af kønnet baseret på fornavnet.
+Ja, det er noget sjusk, og skal nok blive rettet. Under alle omstændigheder,
+er det en logisk værdi som svar på spørgsmålet "gætter vi på at deltageren har det rigtige køn?". 
+TRUE for kvinder, FALSE for mænd.
+Så hvis du vil
 vide om der er forskel på det tidspunkt på dagen de studerende tilmelder sig
 når kurset har kategorien "english" kontra tidspunktet når det er kategorien
 "Python", så kan vi svare på det. Vær dog opmærksom på at kategorierne
@@ -174,9 +183,7 @@ meta_data %>%
 ```
 
 
-```{r}
-meta_data %>% filter(id == 3661348)
-```
+
 
 
 

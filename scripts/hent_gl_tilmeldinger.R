@@ -1,3 +1,4 @@
+# Henter gamle tilmeldinger fra regnearkene
 library(tidyverse)
 library(digest)
 
