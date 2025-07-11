@@ -106,7 +106,7 @@ og tilmeldingsdata for tilmeldingerne:
 
 ```{r}
 tilmeldinger %>% 
-  filter(!is.na(first_name)) %>% 
+  filter(event_id == 4381177) %>% 
   glimpse()
   
 ```
@@ -114,7 +114,11 @@ Nej, der er ikke noget eksempeldata. Hvis der den 16. juli er, så har setuppet
 her bestået sidste test.
 
 Eventid for tilmeldingen hænger sammen med id for kurset. Og first_name 
-indeholder et gæstimat af kønnet baseret på fornavnet. Så hvis du vil
+indeholder et gæstimat af kønnet baseret på fornavnet.
+Ja, det er noget sjusk, og skal nok blive rettet. Under alle omstændigheder,
+er det en logisk værdi som svar på spørgsmålet "gætter vi på at deltageren har det rigtige køn?". 
+TRUE for kvinder, FALSE for mænd.
+Så hvis du vil
 vide om der er forskel på det tidspunkt på dagen de studerende tilmelder sig
 når kurset har kategorien "english" kontra tidspunktet når det er kategorien
 "Python", så kan vi svare på det. Vær dog opmærksom på at kategorierne
