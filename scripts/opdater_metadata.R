@@ -1,5 +1,12 @@
-library(tidyverse)
-library(httr2)
+# library(tidyverse)
+# test at denne kan klare sig uden tidyverse.'
+# opdater derefter den tilhørende yaml fil mhp hurtigere kørsel.
+# overvej også at refaktorisere mhp at slippe af med i hvert fald lubridate
+
+library(readr)
+library(dplyr)
+library(tidyr)
+library(lubridate)
 library(httr)
 library(here)
 cal_id <- 6416L
