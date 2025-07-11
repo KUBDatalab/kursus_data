@@ -6,10 +6,10 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r}
+```{r setup-read-data, echo = FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(knitr)
 meta_data <- read_csv2("data/kursus_metadata.csv")
@@ -23,14 +23,19 @@ meta_data <- meta_data %>%
             campus_1, audience_2_id, audience_2_name, audience_3_id, audience_3_name))
 tilmeldinger <- read_csv2("data/tilmeldings_data.csv")
 ```
-Vi analyserer her ialt `r nrow(distinct(meta_data, id))` registreringer fra 
+Vi analyserer her ialt `r nrow(distinct(meta_data, id))` kurser fra 
 vore kursustilmeldinger, der strækker sig fra `r min(meta_data$start)` til
 `r max(meta_data$end)`
+
+Det fører til sådan ca. `r tilmeldinger %>% distinct(booking_id) %>% nrow()` 
+bookinger, inklusive de der er endt på ventelisten.
+
+
 
 
 Udvikling i antal kurser over årene:
 
-```{r}
+```{r echo = FALSE}
 meta_data %>% 
   distinct(id, .keep_all = TRUE) %>% 
   count(år = year(start), name = "antal") %>% 
@@ -39,7 +44,7 @@ meta_data %>%
 
 Eller, grafisk fremstillet:
 
-```{r}
+```{r echo = FALSE}
 meta_data %>% 
   distinct(id, .keep_all = TRUE) %>% 
   count(år = year(start), name = "antal") %>% 
@@ -48,8 +53,23 @@ meta_data %>%
   geom_line() +
   ggtitle("Antal udbudte aktiviteter over årene", subtitle = "Bemærk at data er til dato, hvorfor tallene for 2025 er som de er")
 ```
-tilmeldinger - og ventelister, pr. kursus.
+
+
+Af en eller anden årsag er I meget glade for lagkagediagrammer. Så her er der en.
+
 ```{r}
+meta_data %>% 
+  distinct(id, .keep_all = TRUE) %>% 
+  count(år = year(start), name = "antal") %>% 
+  ggplot(aes(x = "", y = antal, fill = factor(år))) +
+  geom_bar(stat = "identity", width = 1) +
+  coord_polar("y", start = 0) +
+  theme_void()
+```
+
+
+tilmeldinger - og ventelister, pr. kursus.
+```{r echo = FALSE, message=FALSE}
 tilm_pr_event <- tilmeldinger %>% 
   group_by(event_id, tilm_type) %>% 
   distinct(booking_id, .keep_all = TRUE) %>% 
