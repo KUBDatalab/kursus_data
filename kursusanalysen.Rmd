@@ -169,6 +169,7 @@ tilmeldinger %>%
   left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
   group_by(år = year(start), tilm_type) %>% 
   summarise(antal = n()) %>% 
+  ungroup() %>% 
   pivot_wider(names_from = tilm_type,
               values_from = antal)
   
@@ -189,9 +190,64 @@ meta_data %>%
   ggtitle("Antal aktiviteter i kalenderen i en given måned")
 ```
 
+## Kønsfordelingen
+
+Vi gæstimerer kønnet ud fra fornavn. I skrivende stund mangler næsten alt historisk
+data.
+
+```{r echo= FALSE}
+tilmeldinger %>% 
+  distinct(booking_id, .keep_all = TRUE) %>% 
+  select(event_id, tilm_type, booking_id, first_name) %>% 
+  left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
+  group_by(år = year(start)) %>% 
+  summarise(hun = sum(first_name, na.rm = TRUE),
+            han = sum(!first_name, na.rm = TRUE),
+            total = hun + han) %>% 
+  mutate(år = as.character(år)) %>% 
+  bind_rows(summarise(., across(hun:total, sum, na.rm = TRUE)) %>% mutate(år = "total")) %>% 
+  mutate(andel_hun = hun/total,
+          andel_han = han/total) %>% 
+  select(-total)
+  
+```
 
 
-tilmeldinger - og ventelister, pr. kursus.
+
+```{r echo  = FALSE, warning=FALSE,message=FALSE}
+tilmeldinger %>% 
+  distinct(booking_id, .keep_all = TRUE) %>% 
+  select(event_id, tilm_type, booking_id, first_name) %>% 
+  left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
+  mutate(periode = as.yearmon(start)) %>% 
+  select(tilm_type, first_name, periode) %>% 
+  group_by(periode) %>% 
+  summarise(hun = sum(first_name, na.rm = TRUE),
+            han = sum(!first_name, na.rm = TRUE)) %>% 
+  mutate(hun = if_else(hun == 0, NA, hun),
+         han = if_else(han == 0, NA, han)) %>% 
+  mutate(total = han+hun) %>% 
+  mutate(hun_andel = hun/total,
+         han_andel = han/total) %>% 
+  select(periode, hun_andel, han_andel) %>% 
+  pivot_longer(hun_andel:han_andel, names_to = "køn", values_to = "andel") %>% 
+  mutate(køn = str_remove(køn, "_andel")) %>% 
+  ggplot(aes(x = periode, y = andel, color = køn)) +
+  geom_point() +
+  geom_line() +
+  ggtitle("Kønsfordelingen i tilmeldinger over tid")
+```
+
+Inden der drages for håndfaste konklusioner om en skæv kønsfordeling - som dog
+næppe er af en karakter vi behøver tage alvorligt, skal der dog foretages en 
+chi-i-anden test hvor vi sammenligner med kønsfordelingen på KU.
+
+
+
+## tilmeldinger - og ventelister, pr. kursus.
+
+der er mange...
+
 ```{r echo = FALSE, message=FALSE}
 tilm_pr_event <- tilmeldinger %>% 
   group_by(event_id, tilm_type) %>% 
@@ -211,6 +267,35 @@ meta_data %>%
   mutate(andel_fyldt = registrants/seats)
 ```
 
+
+## Gennemsnitligt fyldt
+Altså - hvor stor en andel af pladserne der udbydes bliver fyldt med tilmeldinger.
+Her skal vi nok fjerne de åbne værksteder først.
+Samlet tabel pr år, opdeling pr måned.
+
+## Kategorier
+
+De kategorier der optræder i data.
+
+Vi skal stadig overveje at finde en måde at tildele en overordnet kategori på
+software. Der er store mangler i registreringerne, så der skal tænkes...
+
+## udvikling i tilmeldinger som funktion af tid. 
+
+Nogen særlige ønsker til behandlingen af ventelistetilmeldinger?
+
+```{r, warning=FALSE}
+tilmeldinger %>% 
+  distinct(booking_id, .keep_all = TRUE) %>% 
+  select(booking_id, registered_date) %>% 
+  group_by(år = year(registered_date)) %>%
+  mutate(antal = 1) %>% 
+  arrange(registered_date) %>% 
+  mutate(antal = cumsum(antal)) %>% 
+  ggplot(aes(yday(registered_date), y = antal, color = factor(år))) +
+  geom_line() +
+  ggtitle("Kumuleret antal tilmeldinger som funktion af tid")
+```
 
 
 
