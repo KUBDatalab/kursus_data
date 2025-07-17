@@ -12,7 +12,7 @@ add_categories <- function(df) {
   # 1. Liste over kategorier vi leder efter
   desired_categories <- c("voyant", "vosviewer", "sql", "regex", "nvivo",
                           "regexpr", "orange", "python", "metashape", "excel",
-                          "r", "openrefine", "gis", "ArcGIS", "værksted")
+                          "r", "openrefine", "gis", "ArcGIS", "værksted") %>% str_to_lower()
   
   # 2. Funktion til at afkode HTML
   decode_html <- function(x) {
@@ -46,29 +46,37 @@ add_categories <- function(df) {
     mutate(detected = map2(title, description, ~ extract_categories(paste(.x, .y), desired_categories))) %>%
     unnest(detected, keep_empty = TRUE) %>%
     filter(!is.na(detected)) %>%
-    rename(new_category = detected)
+    rename(new_category = detected) 
   
-  # 5. Fjern dem der allerede findes i category_name
+  # 5. Fjern dem der allerede findes (case-insensitivt match)
   existing_cats <- df %>%
     select(id, title, description, category_name) %>%
-    distinct()
+    distinct() %>%
+    mutate(category_name_lower = tolower(category_name))
   
   new_cats <- extra_cats %>%
-    filter(!(new_category %in% existing_cats$category_name)) %>%
-    anti_join(existing_cats, by = c("id", "title", "description", "new_category" = "category_name"))
+    mutate(category_name_lower = tolower(new_category)) %>%
+    anti_join(existing_cats,
+              by = c("id", "title", "description", "category_name_lower"))
   
   # 6. Tag én række per kursus som skabelon
   row_template <- df %>%
     group_by(id, title, description) %>%
     slice(1) %>%
-    ungroup()
+    ungroup() %>% 
+    mutate(category_name = str_to_lower(category_name))
   
-  # 7. Opret nye rækker med de nye kategorier
+  # 7. Opret nye rækker
   new_rows <- new_cats %>%
     left_join(row_template, by = c("id", "title", "description")) %>%
     mutate(category_name = new_category) %>%
-    select(names(df))  # sikrer kolonne-rækkefølge og navne
+    select(names(df))  # samme kolonner og rækkefølge
+  
   
   # 8. Saml og returnér
-  bind_rows(df, new_rows)
+  bind_rows(df, new_rows) %>%
+    mutate(category_name = str_to_lower(category_name)) %>% 
+    distinct()
 }
+
+
