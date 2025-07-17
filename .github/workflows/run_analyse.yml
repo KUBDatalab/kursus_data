@@ -32,6 +32,7 @@ jobs:
           Rscript -e 'install.packages("readr")'
           Rscript -e 'install.packages("openssl")'
           Rscript -e 'install.packages("gt")'
+          Rscript -e 'install.packages("scales")'
           Rscript -e 'install.packages("zoo")'
           Rscript -e 'install.packages("digest")'
       - name: Hent nye tilmeldinger
