@@ -321,6 +321,42 @@ De kategorier der optræder i data.
 Vi skal stadig overveje at finde en måde at tildele en overordnet kategori på
 software. Der er store mangler i registreringerne, så der skal tænkes...
 
+Nu starter vi med at tælle hvad vi har.
+```{r}
+meta_data %>% 
+  count(category_name) %>% 
+  gt() %>% 
+  cols_label(category_name = "Kategori",
+             n = "Antal") %>% 
+  tab_footnote("Bemærk at kategoriene kommer fra tilmeldingssystemet, og brugen af labels på kursusaktiviteter er meget ujævn")
+```
+
+Antal aktiviteter pr kategori - fordelt på år:
+```{r aktivitet_år_kategori, echo = FALSE}
+meta_data %>% 
+  group_by(år = year(start)) %>% 
+  count(category_name) %>% 
+  pivot_wider(names_from = år, values_from = n, values_fill = 0) %>% 
+  gt() %>% 
+  tab_header("Antal kursusaktiviteter fordelt på kategori og år") %>% 
+  cols_label(category_name = "Kategori") %>% 
+  tab_footnote("Bemærk at kategorierne kommer fra kursustilmeldingssystemet, hvor brugen af kategorier er ret ujævn. Bemærk også at et typisk kursus har mere end en kategori.")
+  
+```
+
+Da brugen af kategorier i kalendersystemet er så ujævn som den er, er vi nok
+nødt til at finde en løsning.
+
+Så - hvilke kategorier ønsker vi. 
+
+Python
+Excel
+Nvivo
+R
+OpenRefine
+Åbent værksted
+
+
 ## udvikling i tilmeldinger som funktion af tid. 
 
 Nogen særlige ønsker til behandlingen af ventelistetilmeldinger?
