@@ -283,9 +283,35 @@ meta_data %>%
   mutate(år = year(start),
         periode = as.yearmon(start)) %>% 
   group_by(år) %>% 
-  summarise(grad_fyldt = sum(seats_taken)/sum(seats))
+  summarise(grad_fyldt = sum(seats_taken)/sum(seats)) %>% 
+  mutate(grad_fyldt = percent(grad_fyldt, 
+                              accuracy = 1, 
+                              decimal.mark = ",")) %>% 
+  gt() %>% 
+  tab_header(title = "Andel af pladser udbudt, fyldt") %>% 
+  tab_footnote("En række digital humaniora aktiviteter, der har været annonceret, men hvor tilmelding er foregået på anden vis, har ikke registrerede tilmeldinger. Tilsvarende er 'Åbent værksted' fjernet fra oversigten, da der her heller ikke er tilmelding.") %>% 
+  gt::cols_label(år = "År",
+                 grad_fyldt = "Fyldt")
   
 ```
+
+## Udvikling i fyldt (er der ikke nogen der kan hjælpe med et bedre ord?)
+
+```{r}
+meta_data %>%
+  distinct(id, .keep_all = TRUE) %>% 
+  filter(!str_detect(title, "værksted")) %>% 
+  select(title, start, seats, seats_taken) %>% 
+  filter(!is.na(seats_taken)) %>% 
+  mutate(år = year(start),
+        periode = as.yearmon(start)) %>% 
+  group_by(periode) %>% 
+  summarise(grad_fyldt = sum(seats_taken)/sum(seats)) %>% 
+  ggplot(aes(x = periode, y = grad_fyldt)) +
+  geom_col() +
+  ggtitle("udviklingen i hvor fyldte kurserne er pr måned")
+```
+
 
 
 ## Kategorier
