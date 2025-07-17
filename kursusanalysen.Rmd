@@ -15,6 +15,7 @@ library(knitr)
 library(scales)
 library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
+source("scripts/add_categories.R")
 meta_data <- read_csv2("data/kursus_metadata.csv")
 meta_data <- meta_data %>% 
   select(-c(allday, -public, public, admin, end, campus_id, location_type, location_id, calendar_id, owner_name,
@@ -24,6 +25,9 @@ meta_data <- meta_data %>%
             has_registration_opened, registration, has_registration_closed, zoom_email, online_user_id, 
             online_meeting_id, online_host_url, online_join_url, online_join_password, online_provider,
             campus_1, audience_2_id, audience_2_name, audience_3_id, audience_3_name))
+# tilføjer manglende kategorier
+meta_data <- add_categories(meta_data)
+
 tilmeldinger <- read_csv2("data/tilmeldings_data.csv")
 ```
 Vi analyserer her ialt `r nrow(distinct(meta_data, id))` kurser fra 
