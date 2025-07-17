@@ -15,6 +15,7 @@ library(knitr)
 library(scales)
 library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
+source("scripts/add_categories.R")
 meta_data <- read_csv2("data/kursus_metadata.csv")
 meta_data <- meta_data %>% 
   select(-c(allday, -public, public, admin, end, campus_id, location_type, location_id, calendar_id, owner_name,
@@ -24,6 +25,9 @@ meta_data <- meta_data %>%
             has_registration_opened, registration, has_registration_closed, zoom_email, online_user_id, 
             online_meeting_id, online_host_url, online_join_url, online_join_password, online_provider,
             campus_1, audience_2_id, audience_2_name, audience_3_id, audience_3_name))
+# tilføjer manglende kategorier
+meta_data <- add_categories(meta_data)
+
 tilmeldinger <- read_csv2("data/tilmeldings_data.csv")
 ```
 Vi analyserer her ialt `r nrow(distinct(meta_data, id))` kurser fra 
@@ -134,7 +138,7 @@ Udvikling i antal kurser over årene:
 meta_data %>% 
   distinct(id, .keep_all = TRUE) %>% 
   count(år = year(start), name = "antal") %>% 
-  kable()
+  gt()
 ```
 
 Eller, grafisk fremstillet:
@@ -173,7 +177,8 @@ tilmeldinger %>%
   summarise(antal = n()) %>% 
   ungroup() %>% 
   pivot_wider(names_from = tilm_type,
-              values_from = antal)
+              values_from = antal) %>% 
+  gt()
   
 ```
 Registrants er de der har fået plads på kurset. Waitlist er de der er på 
@@ -210,7 +215,8 @@ tilmeldinger %>%
   bind_rows(summarise(., across(hun:total, sum, na.rm = TRUE)) %>% mutate(år = "total")) %>% 
   mutate(andel_hun = hun/total,
           andel_han = han/total) %>% 
-  select(-total)
+  select(-total) %>% 
+  gt()
   
 ```
 
@@ -258,7 +264,7 @@ tilm_pr_event <- tilmeldinger %>%
   summarise(antal = sum(antal)) %>% 
   pivot_wider(names_from = tilm_type, values_from = antal, values_fill = 0)
 ```
-
+Så her er et udvalg
 
 ```{r}
 meta_data %>% 
@@ -266,7 +272,9 @@ meta_data %>%
   pivot_wider(names_from = category_name, values_from = value) %>% 
   right_join(tilm_pr_event, by = c("id" = "event_id")) %>% 
   select(id, title, start, registrants, waitlist, seats) %>% 
-  mutate(andel_fyldt = registrants/seats)
+  mutate(andel_fyldt = registrants/seats) %>% 
+  head() %>% 
+  gt()
 ```
 
 
