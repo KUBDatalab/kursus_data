@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r setup-read-data, echo = FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(knitr)
+library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
 meta_data <- read_csv2("data/kursus_metadata.csv")
 meta_data <- meta_data %>% 
@@ -272,6 +273,20 @@ meta_data %>%
 Altså - hvor stor en andel af pladserne der udbydes bliver fyldt med tilmeldinger.
 Her skal vi nok fjerne de åbne værksteder først.
 Samlet tabel pr år, opdeling pr måned.
+
+```{r}
+meta_data %>%
+  distinct(id, .keep_all = TRUE) %>% 
+  filter(!str_detect(title, "værksted")) %>% 
+  select(title, start, seats, seats_taken) %>% 
+  filter(!is.na(seats_taken)) %>% 
+  mutate(år = year(start),
+        periode = as.yearmon(start)) %>% 
+  group_by(år) %>% 
+  summarise(grad_fyldt = sum(seats_taken)/sum(seats))
+  
+```
+
 
 ## Kategorier
 
