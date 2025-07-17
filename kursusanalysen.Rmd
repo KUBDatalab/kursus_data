@@ -84,6 +84,9 @@ en kategori på der hedder "R" kan vi pt ikke se på kurset at det er et R-kursu
 Eller - det kan vi godt, vi skal bare trække det ud fra beskrivelsen. Og "R" er 
 ikke en specielt fantastisk søgeterm... Det finder vi nok også en løsning på.
 
+Det har vi - men inden du drager alt for hårde konklusioner på det, bør vi
+nok lige trippeltjekke at det fungerer som det skal.
+
 ## Jeg synes der er noget der mangler?
 
 Hvis du har et spørgsmål der kan besvares med de data der er tilgængelige (og
@@ -349,21 +352,28 @@ meta_data %>%
   gt() %>% 
   tab_header("Antal kursusaktiviteter fordelt på kategori og år") %>% 
   cols_label(category_name = "Kategori") %>% 
-  tab_footnote("Bemærk at kategorierne kommer fra kursustilmeldingssystemet, hvor brugen af kategorier er ret ujævn. Bemærk også at et typisk kursus har mere end en kategori.")
+  tab_footnote("Bemærk at kategorierne kommer fra kursustilmeldingssystemet, hvor brugen af kategorier er ret ujævn. De er derfor beriget ved en automatiseret proces - som bør kvalitetstjekkes. Bemærk også at et typisk kursus har mere end en kategori.")
   
 ```
 
-Da brugen af kategorier i kalendersystemet er så ujævn som den er, er vi nok
-nødt til at finde en løsning.
+Brugen af kategorier i kalendersystemet er ret ujævn. Så der er tilføjet kategorier
+pr. automatik. Det lader fortsat en smule tilbage at ønske. Men vi er tæt på nu.
 
-Så - hvilke kategorier ønsker vi. 
+## Graden af "fyldt" pr. kategori pr år.
+```{r}
+meta_data %>% 
+  select(start, category_name, id, seats, seats_taken) %>% 
+  filter(!is.na(seats)) %>% 
+    group_by(år = year(start), category_name) %>% 
+  summarise(pladser = sum(seats),
+            taken = sum(seats_taken),
+            andel_taken = taken/pladser) %>% 
+  select(år, category_name, andel_taken) %>% 
+  pivot_wider(names_from = år,
+              values_from = andel_taken) %>% 
+  gt()
+```
 
-Python
-Excel
-Nvivo
-R
-OpenRefine
-Åbent værksted
 
 
 ## udvikling i tilmeldinger som funktion af tid. 
