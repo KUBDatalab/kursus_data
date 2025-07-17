@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r setup-read-data, echo = FALSE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(knitr)
+library(scales)
 library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
 meta_data <- read_csv2("data/kursus_metadata.csv")
