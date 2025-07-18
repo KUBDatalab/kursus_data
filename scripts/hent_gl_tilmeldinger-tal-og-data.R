@@ -1,4 +1,7 @@
 # hent supplerende data fra tal og data
+# skal kun køre en gang mhp at gemme data i dette projekt.
+# 
+
 library(tidyverse)
 
 files <- dir("data/old_tilm_data_tal_og_data/", full.names = TRUE, recursive = TRUE)
@@ -18,11 +21,13 @@ gl_tilm_tal_og_data <- filer %>%
   pull(data) %>% 
   bind_rows() 
 
+write_csv2("data/tal_og_data_data.csv")
 
-NB køn her er gemt som en sandsynlighed for at personen er mand. 
-Meget lave tal betyder at sandsynligheden taler for at det er en kvinde.
-Er tallet meget høj (tæt på 1), at det er en mand.
-Tallene i "køn" kolonnen skal derfor kategoriseres. Vi antager at TRUE her matcher
-det foretrukne køn. Så hvis tallet er <0.5 skal der returneres TRUE
 
-Bemærk også at vi i den samlede har køn gemt i fornavns kolonnen.
+# NB køn her er gemt som en sandsynlighed for at personen er mand. 
+# Meget lave tal betyder at sandsynligheden taler for at det er en kvinde.
+# Er tallet meget høj (tæt på 1), at det er en mand.
+# Tallene i "køn" kolonnen skal derfor kategoriseres. Vi antager at TRUE her matcher
+# det foretrukne køn. Så hvis tallet er <0.5 skal der returneres TRUE
+# 
+# Bemærk også at vi i den samlede har køn gemt i fornavns kolonnen.
