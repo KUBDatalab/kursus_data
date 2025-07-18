@@ -1,9 +1,12 @@
 # Henter tilmeldingsdata fra API'en.
 # for alle ældre 
 # Vi har ældre tilmeldingsdata fra gemte excel-ark.
+# dette script er det der køres i github action som opdaterer data med nye 
+# tilmeldinger.
+#
 
 
-# Bibliteker
+# Biblioteker
 library(tidyverse)
 library(httr2)
 library(httr)
@@ -21,6 +24,7 @@ if(here::here() == "C:/Users/cbk/Documents/R_projekter/kursus_data"){
 }
 
 # Get token
+
 # returnerer et access-token. Tager client_secret som input.
 get_token <- function(client_secret){
   token_endpoint <- "https://kubkalender.kb.dk/1.1/oauth/token"
