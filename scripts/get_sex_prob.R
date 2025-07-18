@@ -1,5 +1,6 @@
 # funktion der kommer med gæt på kønnet baseret på fornavn.
 # returnerer TRUE ved foretrukkent køn, FALSE hvis mand.
+
 sex_distr <- read_csv2("data/sex_dist.csv")
 get_sex_prob <- function(name){
   name <- toupper(name)
