@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(knitr)
 library(scales)
+library(glue)
 library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
 source("scripts/add_categories.R")
@@ -163,7 +164,10 @@ meta_data %>%
   ggplot(aes(x= år, y = antal)) +
   geom_point() +
   geom_line() +
-  ggtitle("Antal udbudte aktiviteter over årene", subtitle = "Bemærk at data er til dato, hvorfor tallene for 2025 er som de er")
+  coord_cartesian(ylim = c(0,150)) +
+  ggtitle("Antal udbudte aktiviteter over årene", subtitle = "Bemærk at data er til dato, hvorfor tallene for 2025 er som de er") +
+  labs(caption = glue("Data pr {today()}"))
+
 ```
 
 
