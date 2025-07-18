@@ -1,5 +1,6 @@
-# sanerer tilmeldingsdata - fjerner personhenførbare data, og gætter på
+# funktion til at sanere tilmeldingsdata - fjerner personhenførbare data, og gætter på
 # køn
+
 library(digest)
 source("scripts/get_sex_prob.R")
 
