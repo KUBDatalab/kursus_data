@@ -32,13 +32,13 @@ tilmeldinger <- read_csv2("data/tilmeldings_data.csv")
 ```
 Vi analyserer her ialt `r nrow(distinct(meta_data, id))` kurser fra 
 vore kursustilmeldinger, der strækker sig fra `r min(meta_data$start)` til
-`r max(meta_data$end)`
+`r max(meta_data$start)`
 
 Det fører til sådan ca. `r tilmeldinger %>% distinct(booking_id) %>% nrow()` 
 bookinger, inklusive de der er endt på ventelisten.
 
-## Hvad gør vi?
-
+<details>
+<summary style="font-size: 1.5em; font-weight: bold; margin-top: 1em;"> Hvad gør vi? </summary>
 Hver nat kl. 1 (UTC), kører tre scripts på GitHub. Gennem et api-kald til
 vores kalendersystem trækkes data på samtlige kurser fra 1. januar det aktuelle år, og
 365 dage frem, i Datalabs kursuskalender.
@@ -59,9 +59,10 @@ Vi har med andre ord ret opdaterede data her.
 
 I den aktuelle opsætning er det noget der tager ret lang tid ~45 minutter; 
 robusthed fremfor tempo! 
+</details>
 
-
-## Hvad mangler?
+<details>
+<summary style="font-size: 1.5em; font-weight: bold; margin-top: 1em;"> Hvad mangler?</summary>
 
 Vi har gemt regneark med tilmeldingsdata i et års tid. Der er data vi kan
 bruge til at gæstimere kønnet på de tilmeldte. Og vi har også svar på de spørgsmål
@@ -87,7 +88,13 @@ ikke en specielt fantastisk søgeterm... Det finder vi nok også en løsning på
 Det har vi - men inden du drager alt for hårde konklusioner på det, bør vi
 nok lige trippeltjekke at det fungerer som det skal.
 
-## Jeg synes der er noget der mangler?
+</details>
+
+
+
+
+<details>
+<summary style="font-size: 1.5em; font-weight: bold; margin-top: 1em;">Jeg synes der er noget der mangler?</summary>
 
 Hvis du har et spørgsmål der kan besvares med de data der er tilgængelige (og
 altså derfor med forbehold for de tre punkter nævnt ovenfor), kan det besvares.
@@ -96,7 +103,10 @@ spørgsmålet 15 minutter før du gerne vil have svaret. Så kast en mail, eller
 endnu bedre, smid et [issue på GitHub](https://github.com/KUBDatalab/kursus_data/issues/new)
 så fixer jeg det.
 
-## Kan vi få svar på X?
+</details>
+
+<details>
+<summary style="font-size: 1.5em; font-weight: bold; margin-top: 1em;"> Kan vi få svar på X?</summary>
 
 Formentlig, se ovenstående for hele to måder at få et svar (man kan selvfølgelig
 også selv downloade data fra https://github.com/KUBDatalab/kursus_data/tree/main/data
@@ -131,7 +141,7 @@ vide om der er forskel på det tidspunkt på dagen de studerende tilmelder sig
 når kurset har kategorien "english" kontra tidspunktet når det er kategorien
 "Python", så kan vi svare på det. Vær dog opmærksom på at kategorierne
 i kursusmetadata ikke er bedre end dem du selv har lagt ind...
-
+</details>
 
 # Og så til tallene!
 
@@ -157,7 +167,7 @@ meta_data %>%
 ```
 
 
-Af en eller anden årsag er I meget glade for lagkagediagrammer. Så her er der en.
+Af en eller anden årsag er I meget glade for lagkagediagrammer. Så her er der et.
 
 ```{r}
 meta_data %>% 
@@ -340,6 +350,7 @@ meta_data %>%
   gt() %>% 
   cols_label(category_name = "Kategori",
              n = "Antal") %>% 
+    tab_header("Antal kursusaktiviteter fordelt på kategori") %>% 
   tab_footnote("Bemærk at kategoriene kommer fra tilmeldingssystemet, og brugen af labels på kursusaktiviteter er meget ujævn")
 ```
 
@@ -370,10 +381,139 @@ meta_data %>%
             andel_taken = taken/pladser) %>% 
   select(år, category_name, andel_taken) %>% 
   pivot_wider(names_from = år,
-              values_from = andel_taken) %>% 
-  gt()
+              values_from = andel_taken,
+              values_fill = 0) %>% 
+  gt() %>% 
+  tab_header("Hvor mange af pladserne er fyldt - fordelt på kategori og år") %>% 
+  tab_footnote("Bemærk at brugen af kategorier i kalendersystemet er relativt ujævn, og mange kategorier derfor er identificeret automatisk. En andel på 0 indikerer alle steder at der ikke har været kursusaktivitet under den pågældende kategori for det pågældende år.")
+
 ```
 
+Der bør nok forskes i hvad der sker med værkstederne - der er et år hvor der
+åbenbart har været en tilmelding.
+
+## og grafisk
+
+```{r}
+meta_data %>% 
+  select(start, category_name, id, seats, seats_taken) %>% 
+  filter(!is.na(seats)) %>% 
+    group_by(år = year(start), category_name) %>% 
+  summarise(pladser = sum(seats),
+            taken = sum(seats_taken),
+            andel_taken = taken/pladser) %>% 
+  select(år, category_name, andel_taken)  %>% 
+  ggplot(aes(år, andel_taken, color = category_name)) +
+  geom_point() +
+  geom_line() +
+  ggtitle("hvor fyldte er kurserne over tid - fordelt på kategorier")
+```
+
+Gir det mening? Næh.
+
+```{r}
+# Så vi prøver at dele det lidt op...
+søjlerne <- c("analysis", "cleaning", "harvesting", "visualisation")
+sprogene <- c("python", "r")
+programmerne <- c("arcgis", "excel","nvivo", "openrefine", "vosviewer", "voyant", "metashape", "orange")
+skramlet <- c("datalab", "english", "online course","værksted")  
+teknikkerne <- c("regex", "sql")
+
+grupperet_kategori_fyldt_pr_år <- meta_data %>% 
+  select(start, category_name, id, seats, seats_taken) %>% 
+  filter(!is.na(seats)) %>% 
+  group_by(år = year(start), category_name) %>% 
+  summarise(pladser = sum(seats),
+            taken = sum(seats_taken),
+            andel_taken = taken/pladser) %>% 
+  select(år, category_name, andel_taken)  %>% 
+  ungroup() %>% 
+  filter(!(category_name %in% skramlet)) %>% 
+  mutate(kategori = case_when(
+    category_name %in% søjlerne ~ "søjlerne",
+    category_name %in% sprogene ~ "sprogene",
+    category_name %in% programmerne ~"programmerne",
+    category_name %in% teknikkerne ~ "teknikkerne",
+    .default = NA
+  )) 
+grupperet_kategori_fyldt_pr_år %>% 
+  ggplot(aes(år, andel_taken, color = category_name)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~kategori) +
+  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier", 
+          subtitle = "grupperet efter ting")
+```
+Det blev det ikke nødvendigvis mere klart af.
+
+### Det samme, hver for sig
+
+#### sprogene
+
+```{r}
+grupperet_kategori_fyldt_pr_år  %>% 
+  filter(kategori == "sprogene") %>% 
+  ggplot(aes(år, andel_taken, color = category_name)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~kategori) +
+  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - sprogene")
+```
+
+#### programmerne
+
+```{r}
+grupperet_kategori_fyldt_pr_år  %>% 
+  filter(kategori == "programmerne") %>% 
+  ggplot(aes(år, andel_taken, color = category_name)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~kategori) +
+  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - programmerne")
+```
+
+#### teknikkerne
+
+```{r}
+grupperet_kategori_fyldt_pr_år  %>% 
+  filter(kategori == "teknikkerne") %>% 
+  ggplot(aes(år, andel_taken, color = category_name)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~kategori) +
+  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - teknikkerne")
+```
+
+#### søjlerne
+
+```{r}
+grupperet_kategori_fyldt_pr_år  %>% 
+  filter(kategori == "søjlerne") %>% 
+  ggplot(aes(år, andel_taken, color = category_name)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(~kategori) +
+  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - søjlerne")
+```
+
+
+## tilmeldinger - inklusive ventelister som fkt af år og kategori
+
+```{r}
+meta_data %>% 
+  right_join(tilm_pr_event, by = c("id" = "event_id")) %>% 
+  select(id, start, registrants, waitlist, seats, category_name) %>% 
+  group_by(år = year(start), category_name) %>% 
+  distinct(id, .keep_all =TRUE) %>% 
+  filter(!is.na(seats))  %>% 
+  summarise(tilmeldte = sum(registrants),
+            venteliste = sum(waitlist),
+            pladser = sum(seats)) %>% 
+  ungroup() %>% 
+  mutate(andel = tilmeldte/pladser)
+  
+
+```
 
 
 ## udvikling i tilmeldinger som funktion af tid. 
