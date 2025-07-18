@@ -21,7 +21,9 @@ gl_tilm_tal_og_data <- filer %>%
   pull(data) %>% 
   bind_rows() 
 
-write_csv2("data/tal_og_data_data.csv")
+gl_tilm_tal_og_data %>% 
+  mutate(køn = køn < 0.5) %>% 
+  write_csv2("data/tal_og_data_data.csv")
 
 
 # NB køn her er gemt som en sandsynlighed for at personen er mand. 
