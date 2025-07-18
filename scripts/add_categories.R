@@ -1,4 +1,6 @@
-# Identificerer manglende kategorier i datasættet 
+# add_categories(df)
+# Identificerer manglende kategorier i datasættet og tilføjer dem til df,
+# der dernæst returneres
 # 
 
 

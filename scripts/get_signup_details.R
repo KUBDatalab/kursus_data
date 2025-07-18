@@ -1,4 +1,7 @@
-
+# get_signup_details(event_id, token)
+# Funktion der, givet et event_id og et api-adgangstoken, returnerer
+# tilmeldinger for det pågældende event.
+#
 
 get_signup_details <- function(event_id, token){
   url <- modify_url(

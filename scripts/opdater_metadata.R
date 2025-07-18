@@ -1,3 +1,6 @@
+# dette er scriptet der køres af github actions, og henter metadata på
+# kurser vi ikke tidligere har hentet data på - og opdaterer datasættet.
+
 library(tidyverse)
 # test at denne kan klare sig uden tidyverse.' det kan det ikke helt...
 # opdater derefter den tilhørende yaml fil mhp hurtigere kørsel.

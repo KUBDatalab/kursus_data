@@ -1,4 +1,7 @@
-# Henter gamle tilmeldinger fra regnearkene
+# Henter gamle tilmeldinger fra regnearkene.
+# Dette skal kun køre en gang, og gemmer data lokalt i dette projekt.
+# 
+
 library(tidyverse)
 library(digest)
 
