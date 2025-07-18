@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(knitr)
 library(scales)
+library(glue)
 library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
 source("scripts/add_categories.R")
@@ -163,7 +164,10 @@ meta_data %>%
   ggplot(aes(x= år, y = antal)) +
   geom_point() +
   geom_line() +
-  ggtitle("Antal udbudte aktiviteter over årene", subtitle = "Bemærk at data er til dato, hvorfor tallene for 2025 er som de er")
+  coord_cartesian(ylim = c(0,150)) +
+  ggtitle("Antal udbudte aktiviteter over årene", subtitle = "Bemærk at data er til dato, hvorfor tallene for 2025 er som de er") +
+  labs(caption = glue("Data pr {today()}"))
+
 ```
 
 
@@ -291,7 +295,7 @@ meta_data %>%
 ```
 
 
-## Gennemsnitligt fyldt
+## Gennemsnitlig belægningsgrad
 Altså - hvor stor en andel af pladserne der udbydes bliver fyldt med tilmeldinger.
 Her skal vi nok fjerne de åbne værksteder først.
 Samlet tabel pr år, opdeling pr måned.
@@ -313,11 +317,11 @@ meta_data %>%
   tab_header(title = "Andel af pladser udbudt, fyldt") %>% 
   tab_footnote("En række digital humaniora aktiviteter, der har været annonceret, men hvor tilmelding er foregået på anden vis, har ikke registrerede tilmeldinger. Tilsvarende er 'Åbent værksted' fjernet fra oversigten, da der her heller ikke er tilmelding.") %>% 
   gt::cols_label(år = "År",
-                 grad_fyldt = "Fyldt")
+                 grad_fyldt = "Belægningsgrad")
   
 ```
 
-## Udvikling i fyldt (er der ikke nogen der kan hjælpe med et bedre ord?)
+## Udvikling i belægningsgrad
 
 ```{r}
 meta_data %>%
@@ -331,7 +335,7 @@ meta_data %>%
   summarise(grad_fyldt = sum(seats_taken)/sum(seats)) %>% 
   ggplot(aes(x = periode, y = grad_fyldt)) +
   geom_col() +
-  ggtitle("udviklingen i hvor fyldte kurserne er pr måned")
+  ggtitle("udviklingen i belægningsgrad pr måned")
 ```
 
 
@@ -370,7 +374,7 @@ meta_data %>%
 Brugen af kategorier i kalendersystemet er ret ujævn. Så der er tilføjet kategorier
 pr. automatik. Det lader fortsat en smule tilbage at ønske. Men vi er tæt på nu.
 
-## Graden af "fyldt" pr. kategori pr år.
+## Belægningsgrad pr. kategori pr år.
 ```{r}
 meta_data %>% 
   select(start, category_name, id, seats, seats_taken) %>% 
@@ -384,8 +388,8 @@ meta_data %>%
               values_from = andel_taken,
               values_fill = 0) %>% 
   gt() %>% 
-  tab_header("Hvor mange af pladserne er fyldt - fordelt på kategori og år") %>% 
-  tab_footnote("Bemærk at brugen af kategorier i kalendersystemet er relativt ujævn, og mange kategorier derfor er identificeret automatisk. En andel på 0 indikerer alle steder at der ikke har været kursusaktivitet under den pågældende kategori for det pågældende år.")
+  tab_header("Belægningsgrad - fordelt på kategori og år") %>% 
+  tab_footnote("Bemærk at brugen af kategorier i kalendersystemet er relativt ujævn, og mange kategorier derfor er identificeret automatisk. En belægningsgrad på 0 indikerer alle steder at der ikke har været kursusaktivitet under den pågældende kategori for det pågældende år.")
 
 ```
 
@@ -406,7 +410,7 @@ meta_data %>%
   ggplot(aes(år, andel_taken, color = category_name)) +
   geom_point() +
   geom_line() +
-  ggtitle("hvor fyldte er kurserne over tid - fordelt på kategorier")
+  ggtitle("Belægningsgrad over tid - fordelt på kategorier")
 ```
 
 Gir det mening? Næh.
@@ -441,7 +445,7 @@ grupperet_kategori_fyldt_pr_år %>%
   geom_point() +
   geom_line() +
   facet_wrap(~kategori) +
-  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier", 
+  ggtitle("Belægningsgrad over tid, fordelt på kategorier", 
           subtitle = "grupperet efter ting")
 ```
 Det blev det ikke nødvendigvis mere klart af.
@@ -457,7 +461,7 @@ grupperet_kategori_fyldt_pr_år  %>%
   geom_point() +
   geom_line() +
   facet_wrap(~kategori) +
-  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - sprogene")
+  ggtitle("Belægningsgrad over tid, fordelt på kategorier - sprogene")
 ```
 
 #### programmerne
@@ -469,7 +473,7 @@ grupperet_kategori_fyldt_pr_år  %>%
   geom_point() +
   geom_line() +
   facet_wrap(~kategori) +
-  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - programmerne")
+  ggtitle("Belægningsgrad over tid, fordelt på kategorier - programmerne")
 ```
 
 #### teknikkerne
@@ -481,7 +485,7 @@ grupperet_kategori_fyldt_pr_år  %>%
   geom_point() +
   geom_line() +
   facet_wrap(~kategori) +
-  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - teknikkerne")
+  ggtitle("Belægningsgrad over tid, fordelt på kategorier - teknikkerne")
 ```
 
 #### søjlerne
@@ -493,7 +497,7 @@ grupperet_kategori_fyldt_pr_år  %>%
   geom_point() +
   geom_line() +
   facet_wrap(~kategori) +
-  ggtitle("Hvor fyldte er kurserne over tid, fordelt på kategorier - søjlerne")
+  ggtitle("Belægningsgrad over tid, fordelt på kategorier - søjlerne")
 ```
 
 
