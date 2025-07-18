@@ -23,6 +23,7 @@ jobs:
       - name: Install packages
         run: |
           Rscript -e 'install.packages("curl")'
+          Rscript -e 'install.packages("glue")'
           Rscript -e 'install.packages("here")'
           Rscript -e 'install.packages("tidyverse")'
           Rscript -e 'install.packages("knitr")'
