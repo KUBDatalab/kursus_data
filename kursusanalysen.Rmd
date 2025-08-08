@@ -16,7 +16,9 @@ library(scales)
 library(glue)
 library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
-source("scripts/add_categories.R")
+source("scripts/add_categories.R") # til at identificere kategorier
+
+# indlæser kursus_metadata
 meta_data <- read_csv2("data/kursus_metadata.csv")
 meta_data <- meta_data %>% 
   select(-c(allday, -public, public, admin, end, campus_id, location_type, location_id, calendar_id, owner_name,
@@ -29,7 +31,25 @@ meta_data <- meta_data %>%
 # tilføjer manglende kategorier
 meta_data <- add_categories(meta_data)
 
+# vi har nu det samlede sæt metadata
+
+# indlæser tilmeldingsdata
 tilmeldinger <- read_csv2("data/tilmeldings_data.csv")
+
+# dem beriger vi med data på køn
+# starter med at indlæse data på køn
+sex <- read_csv2("data/tal_og_data_data.csv") %>% 
+  select(booking_id, køn) %>% 
+  distinct() %>% 
+  filter(!is.na(køn))
+
+# er er kun interesserede i de unikke bookinger, og kan ikke bruge NA værdier i køn til så meget.
+
+# så beriger vi tilmeldingerne med kønsoplysninger.
+tilmeldinger <- tilmeldinger %>% 
+  left_join(sex, by = join_by(booking_id)) %>% 
+  mutate(køn = if_else(is.na(køn), first_name, køn))
+
 ```
 Vi analyserer her ialt `r nrow(distinct(meta_data, id))` kurser fra 
 vore kursustilmeldinger, der strækker sig fra `r min(meta_data$start)` til
