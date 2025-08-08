@@ -16,7 +16,9 @@ library(scales)
 library(glue)
 library(gt) # formattering af tabeller
 library(zoo) # til marginalt mere avanceret behandling af tid
-source("scripts/add_categories.R")
+source("scripts/add_categories.R") # til at identificere kategorier
+
+# indlæser kursus_metadata
 meta_data <- read_csv2("data/kursus_metadata.csv")
 meta_data <- meta_data %>% 
   select(-c(allday, -public, public, admin, end, campus_id, location_type, location_id, calendar_id, owner_name,
@@ -29,7 +31,25 @@ meta_data <- meta_data %>%
 # tilføjer manglende kategorier
 meta_data <- add_categories(meta_data)
 
+# vi har nu det samlede sæt metadata
+
+# indlæser tilmeldingsdata
 tilmeldinger <- read_csv2("data/tilmeldings_data.csv")
+
+# dem beriger vi med data på køn
+# starter med at indlæse data på køn
+sex <- read_csv2("data/tal_og_data_data.csv") %>% 
+  select(booking_id, køn) %>% 
+  distinct() %>% 
+  filter(!is.na(køn))
+
+# er er kun interesserede i de unikke bookinger, og kan ikke bruge NA værdier i køn til så meget.
+
+# så beriger vi tilmeldingerne med kønsoplysninger.
+tilmeldinger <- tilmeldinger %>% 
+  left_join(sex, by = join_by(booking_id)) %>% 
+  mutate(køn = if_else(is.na(køn), first_name, køn))
+
 ```
 Vi analyserer her ialt `r nrow(distinct(meta_data, id))` kurser fra 
 vore kursustilmeldinger, der strækker sig fra `r min(meta_data$start)` til
@@ -222,11 +242,11 @@ data.
 ```{r echo= FALSE}
 tilmeldinger %>% 
   distinct(booking_id, .keep_all = TRUE) %>% 
-  select(event_id, tilm_type, booking_id, first_name) %>% 
+  select(event_id, tilm_type, booking_id, køn) %>% 
   left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
   group_by(år = year(start)) %>% 
-  summarise(hun = sum(first_name, na.rm = TRUE),
-            han = sum(!first_name, na.rm = TRUE),
+  summarise(hun = sum(køn, na.rm = TRUE),
+            han = sum(!køn, na.rm = TRUE),
             total = hun + han) %>% 
   mutate(år = as.character(år)) %>% 
   bind_rows(summarise(., across(hun:total, sum, na.rm = TRUE)) %>% mutate(år = "total")) %>% 
@@ -242,13 +262,13 @@ tilmeldinger %>%
 ```{r echo  = FALSE, warning=FALSE,message=FALSE}
 tilmeldinger %>% 
   distinct(booking_id, .keep_all = TRUE) %>% 
-  select(event_id, tilm_type, booking_id, first_name) %>% 
+  select(event_id, tilm_type, booking_id, køn) %>% 
   left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
   mutate(periode = as.yearmon(start)) %>% 
-  select(tilm_type, first_name, periode) %>% 
+  select(tilm_type, køn, periode) %>% 
   group_by(periode) %>% 
-  summarise(hun = sum(first_name, na.rm = TRUE),
-            han = sum(!first_name, na.rm = TRUE)) %>% 
+  summarise(hun = sum(køn, na.rm = TRUE),
+            han = sum(!køn, na.rm = TRUE)) %>% 
   mutate(hun = if_else(hun == 0, NA, hun),
          han = if_else(han == 0, NA, han)) %>% 
   mutate(total = han+hun) %>% 
@@ -266,6 +286,34 @@ tilmeldinger %>%
 Inden der drages for håndfaste konklusioner om en skæv kønsfordeling - som dog
 næppe er af en karakter vi behøver tage alvorligt, skal der dog foretages en 
 chi-i-anden test hvor vi sammenligner med kønsfordelingen på KU.
+
+De sidste tal der er til rådighed der, er fra 2023. Der var ialt 22917 
+fuldtidsstuderende kvinder og 13611 fuldtidsstuderende mænd. Svarende til en 
+kønsfordeling på `r 13611/(13611+22917)*100` % af det underrepræsenterede køn.
+Den relevante sammenligning er derfor med vores 2023 tal:
+
+```{r}
+matrix(c(22917, 13611, 467, 201), ncol = 2) %>% chisq.test()
+```
+chi-i-anden testen svarer på om der er forskel på kønsfordelingen blandt indskrevne
+studerende på KU, og på vores kurser, og resultatet er, at underrepræsentationen 
+af mænd på vores kurser er statistisk signifikant. Da kønsfordelingen på vores kurser
+ikke er blevet bedre siden 2023, og der ikke er nogen grund til at tro at den er 
+blevet mere lige på KU som helhed, er der god grund til at tro at problemet fortsat
+eksisterer. 
+
+Da det underrepræsenterede køn er mænd, er det ikke noget vi har i sinde at gøre 
+noget ved.
+
+En mulig forklaring kan være at vi ikke tiltrækker særligt mange studerende fra
+de uddannelser hvor kønsfordelingen stadig er nogenlunde lige, eller fra de 
+ganske få fag hvor mændene er i overtal: Efterspørgslen
+på vores kursustilbud blandt studerende på eksempelvis datalog må forventes at 
+være begrænset. Det betyder at vi primært rekrutterer deltagere på de fag hvor
+den strukturelle køndiskrimination betyder at mænd er endnu mere underrepræsenterede
+end de er på KU som helhed. Og dermed at den relevante sammenligning ikke er 
+den samlede KU-population, men en delmængde af fakulteterne..
+
 
 
 
