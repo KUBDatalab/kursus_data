@@ -1,4 +1,6 @@
 event_id;tilm_type;last_name;booking_id;registration_type;first_name;barcode;phone;email;registered_date;attendance;qid;question;answer
+4414187;registrants;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4414187;waitlist;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4216789;registrants;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4216789;waitlist;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4455591;registrants;NA;5056581;in-person;NA;NA;NA;52c7fffcff0364d66c1372b0d749920d;2025-10-25T21:31:09+02:00;-;15967;Faculty;Faculty of Health and Medical Sciences (UCPH)
