@@ -203,9 +203,10 @@ tilmeldinger %>%
   distinct(booking_id, .keep_all = TRUE) %>% 
   select(event_id, tilm_type, booking_id) %>% 
   left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
-  group_by(år = year(start), tilm_type) %>% 
-  summarise(antal = n()) %>% 
-  ungroup() %>% 
+  filter(!is.na(booking_id)) |> 
+  group_by(år = year(start), tilm_type) |> 
+  summarise(antal = n()) |> 
+  ungroup() |> 
   pivot_wider(names_from = tilm_type,
               values_from = antal) %>% 
   gt()
@@ -237,6 +238,7 @@ tilmeldinger %>%
   distinct(booking_id, .keep_all = TRUE) %>% 
   select(event_id, tilm_type, booking_id, køn) %>% 
   left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
+  filter(!is.na(booking_id)) |> 
   group_by(år = year(start)) %>% 
   summarise(hun = sum(køn, na.rm = TRUE),
             han = sum(!køn, na.rm = TRUE),
@@ -257,6 +259,7 @@ tilmeldinger %>%
   distinct(booking_id, .keep_all = TRUE) %>% 
   select(event_id, tilm_type, booking_id, køn) %>% 
   left_join(meta_data %>% distinct(id, .keep_all= TRUE), by = c("event_id" = "id")) %>% 
+  filter(!is.na(booking_id)) |> 
   mutate(periode = as.yearmon(start)) %>% 
   select(tilm_type, køn, periode) %>% 
   group_by(periode) %>% 
