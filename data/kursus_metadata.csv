@@ -1,4 +1,175 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;category_id;category_name;owner_id;owner_name;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;color;featured_image;geolocation;registration_cost;more_info;setup_time;teardown_time;audience_1_id;audience_1_name;audience_2_id;audience_2_name;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;audience_3_id;audience_3_name;zoom_email;campus_1
+4454076;Introduction to visualizing with ggplot2 in R;FALSE;2026-01-27T08:00:00Z;2026-01-27T10:00:00Z;2025-10-22T08:04:37Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Learn more about how you can visualize your data using R and Positron. We cover the basics of ggplot2, including different types of plots, scales and facetting.</p>
+
+<p>We expect that you have some experience using R, and tidyverse. The level of experience requiered is equivalent to the content of our introductory course in R, &quot;<a href=""https://kubdatalab.github.io/R-intro/"">R for absolute beginners</a>&quot;.</p>
+
+<p>The course material is published <a href=""https://kubdatalab.github.io/R-visualisation/"">here</a>, and we expect you to have R, Positron&nbsp;and the tidyverse libraries installed. Instructions for this can be found <a href=""https://kubdatalab.github.io/R-visualisation/setup.html"">here</a>.</p>
+
+<p>By default our courses are held in Danish, but if one or more learners request it, we will do it in English.</p>";https://kubkalender.kb.dk/event/4454076;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454076;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33564;English;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:04:37Z;TRUE;2026-01-26T20:00:00Z;50;46;0;0;46;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454076;Introduction to visualizing with ggplot2 in R;FALSE;2026-01-27T08:00:00Z;2026-01-27T10:00:00Z;2025-10-22T08:04:37Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Learn more about how you can visualize your data using R and Positron. We cover the basics of ggplot2, including different types of plots, scales and facetting.</p>
+
+<p>We expect that you have some experience using R, and tidyverse. The level of experience requiered is equivalent to the content of our introductory course in R, &quot;<a href=""https://kubdatalab.github.io/R-intro/"">R for absolute beginners</a>&quot;.</p>
+
+<p>The course material is published <a href=""https://kubdatalab.github.io/R-visualisation/"">here</a>, and we expect you to have R, Positron&nbsp;and the tidyverse libraries installed. Instructions for this can be found <a href=""https://kubdatalab.github.io/R-visualisation/setup.html"">here</a>.</p>
+
+<p>By default our courses are held in Danish, but if one or more learners request it, we will do it in English.</p>";https://kubkalender.kb.dk/event/4454076;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454076;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;36627;R;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:04:37Z;TRUE;2026-01-26T20:00:00Z;50;46;0;0;46;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454076;Introduction to visualizing with ggplot2 in R;FALSE;2026-01-27T08:00:00Z;2026-01-27T10:00:00Z;2025-10-22T08:04:37Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Learn more about how you can visualize your data using R and Positron. We cover the basics of ggplot2, including different types of plots, scales and facetting.</p>
+
+<p>We expect that you have some experience using R, and tidyverse. The level of experience requiered is equivalent to the content of our introductory course in R, &quot;<a href=""https://kubdatalab.github.io/R-intro/"">R for absolute beginners</a>&quot;.</p>
+
+<p>The course material is published <a href=""https://kubdatalab.github.io/R-visualisation/"">here</a>, and we expect you to have R, Positron&nbsp;and the tidyverse libraries installed. Instructions for this can be found <a href=""https://kubdatalab.github.io/R-visualisation/setup.html"">here</a>.</p>
+
+<p>By default our courses are held in Danish, but if one or more learners request it, we will do it in English.</p>";https://kubkalender.kb.dk/event/4454076;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454076;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33563;Visualisation;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:04:37Z;TRUE;2026-01-26T20:00:00Z;50;46;0;0;46;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454076;Introduction to visualizing with ggplot2 in R;FALSE;2026-01-27T08:00:00Z;2026-01-27T10:00:00Z;2025-10-22T08:04:37Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p>------------------------------------------------------------------------------------------------------------------------------------</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Learn more about how you can visualize your data using R and Positron. We cover the basics of ggplot2, including different types of plots, scales and facetting.</p>
+
+<p>We expect that you have some experience using R, and tidyverse. The level of experience requiered is equivalent to the content of our introductory course in R, &quot;<a href=""https://kubdatalab.github.io/R-intro/"">R for absolute beginners</a>&quot;.</p>
+
+<p>The course material is published <a href=""https://kubdatalab.github.io/R-visualisation/"">here</a>, and we expect you to have R, Positron&nbsp;and the tidyverse libraries installed. Instructions for this can be found <a href=""https://kubdatalab.github.io/R-visualisation/setup.html"">here</a>.</p>
+
+<p>By default our courses are held in Danish, but if one or more learners request it, we will do it in English.</p>";https://kubkalender.kb.dk/event/4454076;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454076;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:04:37Z;TRUE;2026-01-26T20:00:00Z;50;46;0;0;46;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4460064;Tekstanalyse med R på dansk;FALSE;2026-01-27T11:00:00Z;2026-01-27T13:00:00Z;2025-11-13T07:43:46Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om vinterskolen</strong></p>
+
+<p>Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</p>
+
+<p>Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""http://kubdatalab.github.io/R-intro/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>";https://kubkalender.kb.dk/event/4460064;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4460064;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33562;Analysis;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1763019632.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-11-13T07:43:46Z;TRUE;2026-01-26T23:00:00Z;40;14;0;0;14;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4460064;Tekstanalyse med R på dansk;FALSE;2026-01-27T11:00:00Z;2026-01-27T13:00:00Z;2025-11-13T07:43:46Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om vinterskolen</strong></p>
+
+<p>Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</p>
+
+<p>Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""http://kubdatalab.github.io/R-intro/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>";https://kubkalender.kb.dk/event/4460064;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4460064;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33561;Cleaning;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1763019632.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-11-13T07:43:46Z;TRUE;2026-01-26T23:00:00Z;40;14;0;0;14;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4460064;Tekstanalyse med R på dansk;FALSE;2026-01-27T11:00:00Z;2026-01-27T13:00:00Z;2025-11-13T07:43:46Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om vinterskolen</strong></p>
+
+<p>Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</p>
+
+<p>Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""http://kubdatalab.github.io/R-intro/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>";https://kubkalender.kb.dk/event/4460064;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4460064;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;36627;R;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1763019632.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-11-13T07:43:46Z;TRUE;2026-01-26T23:00:00Z;40;14;0;0;14;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4460064;Tekstanalyse med R på dansk;FALSE;2026-01-27T11:00:00Z;2026-01-27T13:00:00Z;2025-11-13T07:43:46Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om vinterskolen</strong></p>
+
+<p>Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</p>
+
+<p>Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""http://kubdatalab.github.io/R-intro/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>";https://kubkalender.kb.dk/event/4460064;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4460064;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33563;Visualisation;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1763019632.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-11-13T07:43:46Z;TRUE;2026-01-26T23:00:00Z;40;14;0;0;14;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4460064;Tekstanalyse med R på dansk;FALSE;2026-01-27T11:00:00Z;2026-01-27T13:00:00Z;2025-11-13T07:43:46Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om vinterskolen</strong></p>
+
+<p>Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</p>
+
+<p>Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""http://kubdatalab.github.io/R-intro/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>";https://kubkalender.kb.dk/event/4460064;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4460064;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1763019632.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-11-13T07:43:46Z;TRUE;2026-01-26T23:00:00Z;40;14;0;0;14;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4454074;R for absolutte nybegyndere;FALSE;2026-01-26T08:00:00Z;2026-01-26T10:00:00Z;2025-10-22T08:01:28Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
 
 <p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
