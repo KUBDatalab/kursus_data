@@ -1,4 +1,236 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;category_id;category_name;owner_id;owner_name;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;color;featured_image;geolocation;registration_cost;more_info;setup_time;teardown_time;audience_1_id;audience_1_name;audience_2_id;audience_2_name;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;audience_3_id;audience_3_name;zoom_email;campus_1
+4454078;Explorative data analysis with R;FALSE;2026-01-29T08:00:00Z;2026-01-29T10:00:00Z;2025-10-22T08:14:15Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the Course</strong></p>
+
+<p>How do you gain insight in your data? We explore a largish dataset using statistical methods and visualizations.</p>
+
+<p>We assume that you have some experience working with R, and knows the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You should have R and Positron&nbsp;installed before the course, and preferably also have downloaded the dataset that we are going to explore. You can find further instructions <a href=""https://kubdatalab.github.io/R-EDA/setup.html"">here</a>.</p>
+
+<p>The course is by default held in Danish - unless one or more participants requests us to do it in English.</p>";https://kubkalender.kb.dk/event/4454078;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454078;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33562;Analysis;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:14:15Z;TRUE;2026-01-28T20:00:00Z;50;47;0;0;47;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454078;Explorative data analysis with R;FALSE;2026-01-29T08:00:00Z;2026-01-29T10:00:00Z;2025-10-22T08:14:15Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the Course</strong></p>
+
+<p>How do you gain insight in your data? We explore a largish dataset using statistical methods and visualizations.</p>
+
+<p>We assume that you have some experience working with R, and knows the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You should have R and Positron&nbsp;installed before the course, and preferably also have downloaded the dataset that we are going to explore. You can find further instructions <a href=""https://kubdatalab.github.io/R-EDA/setup.html"">here</a>.</p>
+
+<p>The course is by default held in Danish - unless one or more participants requests us to do it in English.</p>";https://kubkalender.kb.dk/event/4454078;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454078;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33561;Cleaning;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:14:15Z;TRUE;2026-01-28T20:00:00Z;50;47;0;0;47;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454078;Explorative data analysis with R;FALSE;2026-01-29T08:00:00Z;2026-01-29T10:00:00Z;2025-10-22T08:14:15Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the Course</strong></p>
+
+<p>How do you gain insight in your data? We explore a largish dataset using statistical methods and visualizations.</p>
+
+<p>We assume that you have some experience working with R, and knows the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You should have R and Positron&nbsp;installed before the course, and preferably also have downloaded the dataset that we are going to explore. You can find further instructions <a href=""https://kubdatalab.github.io/R-EDA/setup.html"">here</a>.</p>
+
+<p>The course is by default held in Danish - unless one or more participants requests us to do it in English.</p>";https://kubkalender.kb.dk/event/4454078;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454078;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33564;English;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:14:15Z;TRUE;2026-01-28T20:00:00Z;50;47;0;0;47;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454078;Explorative data analysis with R;FALSE;2026-01-29T08:00:00Z;2026-01-29T10:00:00Z;2025-10-22T08:14:15Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the Course</strong></p>
+
+<p>How do you gain insight in your data? We explore a largish dataset using statistical methods and visualizations.</p>
+
+<p>We assume that you have some experience working with R, and knows the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You should have R and Positron&nbsp;installed before the course, and preferably also have downloaded the dataset that we are going to explore. You can find further instructions <a href=""https://kubdatalab.github.io/R-EDA/setup.html"">here</a>.</p>
+
+<p>The course is by default held in Danish - unless one or more participants requests us to do it in English.</p>";https://kubkalender.kb.dk/event/4454078;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454078;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;36627;R;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:14:15Z;TRUE;2026-01-28T20:00:00Z;50;47;0;0;47;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454078;Explorative data analysis with R;FALSE;2026-01-29T08:00:00Z;2026-01-29T10:00:00Z;2025-10-22T08:14:15Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the Course</strong></p>
+
+<p>How do you gain insight in your data? We explore a largish dataset using statistical methods and visualizations.</p>
+
+<p>We assume that you have some experience working with R, and knows the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You should have R and Positron&nbsp;installed before the course, and preferably also have downloaded the dataset that we are going to explore. You can find further instructions <a href=""https://kubdatalab.github.io/R-EDA/setup.html"">here</a>.</p>
+
+<p>The course is by default held in Danish - unless one or more participants requests us to do it in English.</p>";https://kubkalender.kb.dk/event/4454078;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454078;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:14:15Z;TRUE;2026-01-28T20:00:00Z;50;47;0;0;47;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454084;Introduktion til statistik i R / Introduction to statistics in R;FALSE;2026-01-29T11:30:00Z;2026-01-29T13:30:00Z;2025-10-22T08:25:36Z;"<p><span style=""font-size:16px;""><strong>Om vinterskolen</strong></span></p>
+
+<p><span style=""font-size:16px;"">Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</span></p>
+
+<p><span style=""font-size:16px;"">Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Vil du gerne l&aelig;re, hvordan du kan lave statistiske analyser ved hj&aelig;lp af R? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til, hvordan man kan lave statiske analyser i R. Dette er ikke et statistikkursus, s&aring; man l&aelig;rer ikke om statistik i sig selv.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; vores <a href=""https://kubdatalab.github.io/R-intro/"" style=""color:blue; text-decoration:underline"" target=""_blank"">grundl&aelig;ggende R-kursus</a>. Desuden skal man have en vis statistisk indsigt.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Du bedes have installeret R og Positron&nbsp;f&oslash;r kurset, s&aring;dan at vi kan n&aring; s&aring; langt som muligt p&aring; kurset. Du kan finde hj&aelig;lp til at installere <a href=""https://kubdatalab.github.io/R-statistic/"" style=""color:blue; text-decoration:underline"" target=""_blank"">R og Positron her</a>.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere af deltagerne &oslash;nsker det, afholdes det p&aring; engelsk.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
+
+<p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
+
+<p><span style=""font-size:16px;"">In short, it is up to you whether you wish to register for one or more courses.</span></p>
+
+<p><span style=""font-size:16px;"">The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style=""font-size:16px;"">About the course</span></strong></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Would you like to perform statistical analyses in R? If so, this course might be relevant for you. The course provides an introduction to conducting statistical analyses in R. Please note that the course does not include an introduction to statistics as such.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">To participate in the course, you are expected to have some experience with programming in R. You are also expected to be familiar with the tidyverse. This corresponds to what is taught in our <a href=""https://kubdatalab.github.io/R-intro/"" style=""color:blue; text-decoration:underline"" target=""_blank"">basic R courses</a>. In addition, you need some knowledge about statistics.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Furthermore, we expect you to be able to conduct statistical work prior to attending the course, so some knowledge of statistics is also required. &nbsp;</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Please ensure that you have installed R and Positron&nbsp;in advance to make the most of our time together. You can find help for installing <a href=""https://kubdatalab.github.io/R-statistic/"" style=""color:blue; text-decoration:underline"" target=""_blank"">R and Positron here</a>.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">The course will primarily be conducted in Danish, but if one or more participants prefer, it will be held in English.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times=""""></span></span></p>
+
+<p><span style=""font-size:11pt""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:10.0pt""><span arial="""" style=""font-family:""><span style=""color:#5a5a5a""></span></span></span></span></span></p>
+
+<p><span style=""font-size:11pt""><span style=""font-family:Calibri,sans-serif""></span></span></p>";https://kubkalender.kb.dk/event/4454084;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454084;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33564;English;44253;Søren Davidsen;Søren Davidsen & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:25:36Z;TRUE;2026-01-29T11:30:00Z;50;44;0;0;44;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454084;Introduktion til statistik i R / Introduction to statistics in R;FALSE;2026-01-29T11:30:00Z;2026-01-29T13:30:00Z;2025-10-22T08:25:36Z;"<p><span style=""font-size:16px;""><strong>Om vinterskolen</strong></span></p>
+
+<p><span style=""font-size:16px;"">Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</span></p>
+
+<p><span style=""font-size:16px;"">Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Vil du gerne l&aelig;re, hvordan du kan lave statistiske analyser ved hj&aelig;lp af R? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til, hvordan man kan lave statiske analyser i R. Dette er ikke et statistikkursus, s&aring; man l&aelig;rer ikke om statistik i sig selv.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; vores <a href=""https://kubdatalab.github.io/R-intro/"" style=""color:blue; text-decoration:underline"" target=""_blank"">grundl&aelig;ggende R-kursus</a>. Desuden skal man have en vis statistisk indsigt.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Du bedes have installeret R og Positron&nbsp;f&oslash;r kurset, s&aring;dan at vi kan n&aring; s&aring; langt som muligt p&aring; kurset. Du kan finde hj&aelig;lp til at installere <a href=""https://kubdatalab.github.io/R-statistic/"" style=""color:blue; text-decoration:underline"" target=""_blank"">R og Positron her</a>.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere af deltagerne &oslash;nsker det, afholdes det p&aring; engelsk.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
+
+<p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
+
+<p><span style=""font-size:16px;"">In short, it is up to you whether you wish to register for one or more courses.</span></p>
+
+<p><span style=""font-size:16px;"">The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style=""font-size:16px;"">About the course</span></strong></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Would you like to perform statistical analyses in R? If so, this course might be relevant for you. The course provides an introduction to conducting statistical analyses in R. Please note that the course does not include an introduction to statistics as such.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">To participate in the course, you are expected to have some experience with programming in R. You are also expected to be familiar with the tidyverse. This corresponds to what is taught in our <a href=""https://kubdatalab.github.io/R-intro/"" style=""color:blue; text-decoration:underline"" target=""_blank"">basic R courses</a>. In addition, you need some knowledge about statistics.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Furthermore, we expect you to be able to conduct statistical work prior to attending the course, so some knowledge of statistics is also required. &nbsp;</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Please ensure that you have installed R and Positron&nbsp;in advance to make the most of our time together. You can find help for installing <a href=""https://kubdatalab.github.io/R-statistic/"" style=""color:blue; text-decoration:underline"" target=""_blank"">R and Positron here</a>.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">The course will primarily be conducted in Danish, but if one or more participants prefer, it will be held in English.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times=""""></span></span></p>
+
+<p><span style=""font-size:11pt""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:10.0pt""><span arial="""" style=""font-family:""><span style=""color:#5a5a5a""></span></span></span></span></span></p>
+
+<p><span style=""font-size:11pt""><span style=""font-family:Calibri,sans-serif""></span></span></p>";https://kubkalender.kb.dk/event/4454084;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454084;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;36627;R;44253;Søren Davidsen;Søren Davidsen & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:25:36Z;TRUE;2026-01-29T11:30:00Z;50;44;0;0;44;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454084;Introduktion til statistik i R / Introduction to statistics in R;FALSE;2026-01-29T11:30:00Z;2026-01-29T13:30:00Z;2025-10-22T08:25:36Z;"<p><span style=""font-size:16px;""><strong>Om vinterskolen</strong></span></p>
+
+<p><span style=""font-size:16px;"">Som noget nyt har vi i KUB Datalab arrangeret en s&aring;kaldt vinterskole. Form&aring;let er at give deltagerne mulighed for at besk&aelig;ftige sig indg&aring;ende med R i en hel uge. Du har s&aring;ledes mulighed for at tilrettel&aelig;gge et program, der passer til lige netop dine behov og dine foruds&aelig;tninger. Du skal v&aelig;re opm&aelig;rksom p&aring;, at du skal tilmelde dig hvert kursus individuelt.</span></p>
+
+<p><span style=""font-size:16px;"">Vinterskolen arrangeres i samarbejde mellem K&oslash;benhavns Universitetsbibliotek og Roskilde Universitetsbibliotek.</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om kurset</strong></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Vil du gerne l&aelig;re, hvordan du kan lave statistiske analyser ved hj&aelig;lp af R? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til, hvordan man kan lave statiske analyser i R. Dette er ikke et statistikkursus, s&aring; man l&aelig;rer ikke om statistik i sig selv.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; vores <a href=""https://kubdatalab.github.io/R-intro/"" style=""color:blue; text-decoration:underline"" target=""_blank"">grundl&aelig;ggende R-kursus</a>. Desuden skal man have en vis statistisk indsigt.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Du bedes have installeret R og Positron&nbsp;f&oslash;r kurset, s&aring;dan at vi kan n&aring; s&aring; langt som muligt p&aring; kurset. Du kan finde hj&aelig;lp til at installere <a href=""https://kubdatalab.github.io/R-statistic/"" style=""color:blue; text-decoration:underline"" target=""_blank"">R og Positron her</a>.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere af deltagerne &oslash;nsker det, afholdes det p&aring; engelsk.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
+
+<p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
+
+<p><span style=""font-size:16px;"">In short, it is up to you whether you wish to register for one or more courses.</span></p>
+
+<p><span style=""font-size:16px;"">The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</span></p>
+
+<p>&nbsp;</p>
+
+<p><strong><span style=""font-size:16px;"">About the course</span></strong></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Would you like to perform statistical analyses in R? If so, this course might be relevant for you. The course provides an introduction to conducting statistical analyses in R. Please note that the course does not include an introduction to statistics as such.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">To participate in the course, you are expected to have some experience with programming in R. You are also expected to be familiar with the tidyverse. This corresponds to what is taught in our <a href=""https://kubdatalab.github.io/R-intro/"" style=""color:blue; text-decoration:underline"" target=""_blank"">basic R courses</a>. In addition, you need some knowledge about statistics.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Furthermore, we expect you to be able to conduct statistical work prior to attending the course, so some knowledge of statistics is also required. &nbsp;</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">Please ensure that you have installed R and Positron&nbsp;in advance to make the most of our time together. You can find help for installing <a href=""https://kubdatalab.github.io/R-statistic/"" style=""color:blue; text-decoration:underline"" target=""_blank"">R and Positron here</a>.</span></span></p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times="""">The course will primarily be conducted in Danish, but if one or more participants prefer, it will be held in English.</span></span></p>
+
+<p>&nbsp;</p>
+
+<p><span style=""font-size:12pt""><span new="""" roman="""" style=""font-family:"" times=""""></span></span></p>
+
+<p><span style=""font-size:11pt""><span style=""font-family:Calibri,sans-serif""><span style=""font-size:10.0pt""><span arial="""" style=""font-family:""><span style=""color:#5a5a5a""></span></span></span></span></span></p>
+
+<p><span style=""font-size:11pt""><span style=""font-family:Calibri,sans-serif""></span></span></p>";https://kubkalender.kb.dk/event/4454084;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454084;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;44253;Søren Davidsen;Søren Davidsen & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-10-22T08:25:36Z;TRUE;2026-01-29T11:30:00Z;50;44;0;0;44;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4454077;Learn how to analyse text with R;FALSE;2026-01-28T08:00:00Z;2026-01-28T10:00:00Z;2025-10-22T08:12:14Z;"<p><strong>About the winter school</strong></p>
 
 <p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
