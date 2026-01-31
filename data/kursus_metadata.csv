@@ -1,4 +1,225 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;category_id;category_name;owner_id;owner_name;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;color;featured_image;geolocation;registration_cost;more_info;setup_time;teardown_time;audience_1_id;audience_1_name;audience_2_id;audience_2_name;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;audience_3_id;audience_3_name;zoom_email;campus_1
+4454087;R and APIs - Statistics Denmark;FALSE;2026-01-30T08:00:00Z;2026-01-30T10:00:00Z;2025-10-22T08:27:12Z;"<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
+
+<p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
+
+<p><span style=""font-size:16px;"">In short, it is up to you whether you wish to register for one or more courses.</span></p>
+
+<p><span style=""font-size:16px;"">The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</span></p>
+
+<p><strong>About the course</strong></p>
+
+<p>APIs provide access to a multitude of information.</p>
+
+<p>In this course we cover how to extract data though APIs using the Statistics Denmark and i can haz dad joke APIs as examples.</p>
+
+<p>The course material can be found on this <a href=""https://kubdatalab.github.io/R-api/"">website</a>. Please make sure that you have followed the under &quot;Setup&quot; to install R and Positron&nbsp;as well as some additional packages.</p>
+
+<p>The course requires some previous knowledge of R. We will assume that you are familiar with:</p>
+
+<ul>
+	<li>Navigating in Positron, and how to interact with R</li>
+	<li>Datatypes, variables and objects</li>
+	<li>Simple arithmetic and logical operations on data</li>
+	<li>Working with functions - and how to write a very simple function ourself</li>
+	<li>Import data into R</li>
+	<li>Summary statistics&nbsp;</li>
+	<li>Manipulating data frames</li>
+</ul>
+
+<p>These topics are covered in our introductory courses in R.</p>";https://kubkalender.kb.dk/event/4454087;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454087;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33564;English;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;1022;Level 2 - Basic / Let øvet;5673;FALSE;TRUE;2025-10-22T08:27:12Z;TRUE;2026-01-29T20:00:00Z;50;28;0;0;28;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454087;R and APIs - Statistics Denmark;FALSE;2026-01-30T08:00:00Z;2026-01-30T10:00:00Z;2025-10-22T08:27:12Z;"<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
+
+<p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
+
+<p><span style=""font-size:16px;"">In short, it is up to you whether you wish to register for one or more courses.</span></p>
+
+<p><span style=""font-size:16px;"">The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</span></p>
+
+<p><strong>About the course</strong></p>
+
+<p>APIs provide access to a multitude of information.</p>
+
+<p>In this course we cover how to extract data though APIs using the Statistics Denmark and i can haz dad joke APIs as examples.</p>
+
+<p>The course material can be found on this <a href=""https://kubdatalab.github.io/R-api/"">website</a>. Please make sure that you have followed the under &quot;Setup&quot; to install R and Positron&nbsp;as well as some additional packages.</p>
+
+<p>The course requires some previous knowledge of R. We will assume that you are familiar with:</p>
+
+<ul>
+	<li>Navigating in Positron, and how to interact with R</li>
+	<li>Datatypes, variables and objects</li>
+	<li>Simple arithmetic and logical operations on data</li>
+	<li>Working with functions - and how to write a very simple function ourself</li>
+	<li>Import data into R</li>
+	<li>Summary statistics&nbsp;</li>
+	<li>Manipulating data frames</li>
+</ul>
+
+<p>These topics are covered in our introductory courses in R.</p>";https://kubkalender.kb.dk/event/4454087;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454087;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33560;Harvesting;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;1022;Level 2 - Basic / Let øvet;5673;FALSE;TRUE;2025-10-22T08:27:12Z;TRUE;2026-01-29T20:00:00Z;50;28;0;0;28;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454087;R and APIs - Statistics Denmark;FALSE;2026-01-30T08:00:00Z;2026-01-30T10:00:00Z;2025-10-22T08:27:12Z;"<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
+
+<p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
+
+<p><span style=""font-size:16px;"">In short, it is up to you whether you wish to register for one or more courses.</span></p>
+
+<p><span style=""font-size:16px;"">The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</span></p>
+
+<p><strong>About the course</strong></p>
+
+<p>APIs provide access to a multitude of information.</p>
+
+<p>In this course we cover how to extract data though APIs using the Statistics Denmark and i can haz dad joke APIs as examples.</p>
+
+<p>The course material can be found on this <a href=""https://kubdatalab.github.io/R-api/"">website</a>. Please make sure that you have followed the under &quot;Setup&quot; to install R and Positron&nbsp;as well as some additional packages.</p>
+
+<p>The course requires some previous knowledge of R. We will assume that you are familiar with:</p>
+
+<ul>
+	<li>Navigating in Positron, and how to interact with R</li>
+	<li>Datatypes, variables and objects</li>
+	<li>Simple arithmetic and logical operations on data</li>
+	<li>Working with functions - and how to write a very simple function ourself</li>
+	<li>Import data into R</li>
+	<li>Summary statistics&nbsp;</li>
+	<li>Manipulating data frames</li>
+</ul>
+
+<p>These topics are covered in our introductory courses in R.</p>";https://kubkalender.kb.dk/event/4454087;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454087;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;36627;R;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;1022;Level 2 - Basic / Let øvet;5673;FALSE;TRUE;2025-10-22T08:27:12Z;TRUE;2026-01-29T20:00:00Z;50;28;0;0;28;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4454087;R and APIs - Statistics Denmark;FALSE;2026-01-30T08:00:00Z;2026-01-30T10:00:00Z;2025-10-22T08:27:12Z;"<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
+
+<p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
+
+<p><span style=""font-size:16px;"">In short, it is up to you whether you wish to register for one or more courses.</span></p>
+
+<p><span style=""font-size:16px;"">The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</span></p>
+
+<p><strong>About the course</strong></p>
+
+<p>APIs provide access to a multitude of information.</p>
+
+<p>In this course we cover how to extract data though APIs using the Statistics Denmark and i can haz dad joke APIs as examples.</p>
+
+<p>The course material can be found on this <a href=""https://kubdatalab.github.io/R-api/"">website</a>. Please make sure that you have followed the under &quot;Setup&quot; to install R and Positron&nbsp;as well as some additional packages.</p>
+
+<p>The course requires some previous knowledge of R. We will assume that you are familiar with:</p>
+
+<ul>
+	<li>Navigating in Positron, and how to interact with R</li>
+	<li>Datatypes, variables and objects</li>
+	<li>Simple arithmetic and logical operations on data</li>
+	<li>Working with functions - and how to write a very simple function ourself</li>
+	<li>Import data into R</li>
+	<li>Summary statistics&nbsp;</li>
+	<li>Manipulating data frames</li>
+</ul>
+
+<p>These topics are covered in our introductory courses in R.</p>";https://kubkalender.kb.dk/event/4454087;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4454087;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;16332;Christian Knudsen;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;50;TRUE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/accounts/16435/images/wInTeRmElLeMrUmScHoOl.png;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;1022;Level 2 - Basic / Let øvet;5673;FALSE;TRUE;2025-10-22T08:27:12Z;TRUE;2026-01-29T20:00:00Z;50;28;0;0;28;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486314;Harvest data from webpages without APIs - with R;FALSE;2026-01-30T11:00:00Z;2026-01-30T13:30:00Z;2025-12-16T14:50:05Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Websites contain a lot text and data. Some of them have API&#39;s for easy download of data, but many don&#39;t. In this course you will learn how to harvest various parts of webpages that don&#39;t have APIs. You will learn how to inspect a website and identify the parts of it that you want to harvest, whether it be numbers or text, and use R to transform it into a workable format.&nbsp;</p>
+
+<p>This is called web scraping. One of the advantages is that we can harvest data and text that is spread over many pages instead of having to copy-paste each page manually. In addition, we can ensure that it is in a format that allows us to work with page&#39;s content. In this course we will harvest both numbers in tables about the demographics of University of Copenhagen Students as well as text about a political and societal issue, both past and present</p>
+
+<p>&nbsp;</p>
+
+<p>We assume that you have some experience working with R, and know the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You are kindly asked to have R and Positron and the internet browser Firefox installed before the course. You can install R for Windows <a href=""https://cran.r-project.org/bin/windows/base/"">here</a> and for Mac <a href=""https://cran.r-project.org/bin/macosx/"">here</a>. You can install Positron for Windows and Mac <a href=""https://posit.co/download/rstudio-desktop/"">here</a>.&nbsp;</p>
+
+<p>The course will be held in English if any participant requests it. If everyone speaks Danish it can be held in Danish</p>";https://kubkalender.kb.dk/event/4486314;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486314;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33561;Cleaning;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1765894597.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-12-16T14:50:05Z;TRUE;2026-01-30T05:00:00Z;40;11;0;0;11;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486314;Harvest data from webpages without APIs - with R;FALSE;2026-01-30T11:00:00Z;2026-01-30T13:30:00Z;2025-12-16T14:50:05Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Websites contain a lot text and data. Some of them have API&#39;s for easy download of data, but many don&#39;t. In this course you will learn how to harvest various parts of webpages that don&#39;t have APIs. You will learn how to inspect a website and identify the parts of it that you want to harvest, whether it be numbers or text, and use R to transform it into a workable format.&nbsp;</p>
+
+<p>This is called web scraping. One of the advantages is that we can harvest data and text that is spread over many pages instead of having to copy-paste each page manually. In addition, we can ensure that it is in a format that allows us to work with page&#39;s content. In this course we will harvest both numbers in tables about the demographics of University of Copenhagen Students as well as text about a political and societal issue, both past and present</p>
+
+<p>&nbsp;</p>
+
+<p>We assume that you have some experience working with R, and know the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You are kindly asked to have R and Positron and the internet browser Firefox installed before the course. You can install R for Windows <a href=""https://cran.r-project.org/bin/windows/base/"">here</a> and for Mac <a href=""https://cran.r-project.org/bin/macosx/"">here</a>. You can install Positron for Windows and Mac <a href=""https://posit.co/download/rstudio-desktop/"">here</a>.&nbsp;</p>
+
+<p>The course will be held in English if any participant requests it. If everyone speaks Danish it can be held in Danish</p>";https://kubkalender.kb.dk/event/4486314;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486314;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33564;English;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1765894597.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-12-16T14:50:05Z;TRUE;2026-01-30T05:00:00Z;40;11;0;0;11;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486314;Harvest data from webpages without APIs - with R;FALSE;2026-01-30T11:00:00Z;2026-01-30T13:30:00Z;2025-12-16T14:50:05Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Websites contain a lot text and data. Some of them have API&#39;s for easy download of data, but many don&#39;t. In this course you will learn how to harvest various parts of webpages that don&#39;t have APIs. You will learn how to inspect a website and identify the parts of it that you want to harvest, whether it be numbers or text, and use R to transform it into a workable format.&nbsp;</p>
+
+<p>This is called web scraping. One of the advantages is that we can harvest data and text that is spread over many pages instead of having to copy-paste each page manually. In addition, we can ensure that it is in a format that allows us to work with page&#39;s content. In this course we will harvest both numbers in tables about the demographics of University of Copenhagen Students as well as text about a political and societal issue, both past and present</p>
+
+<p>&nbsp;</p>
+
+<p>We assume that you have some experience working with R, and know the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You are kindly asked to have R and Positron and the internet browser Firefox installed before the course. You can install R for Windows <a href=""https://cran.r-project.org/bin/windows/base/"">here</a> and for Mac <a href=""https://cran.r-project.org/bin/macosx/"">here</a>. You can install Positron for Windows and Mac <a href=""https://posit.co/download/rstudio-desktop/"">here</a>.&nbsp;</p>
+
+<p>The course will be held in English if any participant requests it. If everyone speaks Danish it can be held in Danish</p>";https://kubkalender.kb.dk/event/4486314;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486314;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33560;Harvesting;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1765894597.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-12-16T14:50:05Z;TRUE;2026-01-30T05:00:00Z;40;11;0;0;11;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486314;Harvest data from webpages without APIs - with R;FALSE;2026-01-30T11:00:00Z;2026-01-30T13:30:00Z;2025-12-16T14:50:05Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Websites contain a lot text and data. Some of them have API&#39;s for easy download of data, but many don&#39;t. In this course you will learn how to harvest various parts of webpages that don&#39;t have APIs. You will learn how to inspect a website and identify the parts of it that you want to harvest, whether it be numbers or text, and use R to transform it into a workable format.&nbsp;</p>
+
+<p>This is called web scraping. One of the advantages is that we can harvest data and text that is spread over many pages instead of having to copy-paste each page manually. In addition, we can ensure that it is in a format that allows us to work with page&#39;s content. In this course we will harvest both numbers in tables about the demographics of University of Copenhagen Students as well as text about a political and societal issue, both past and present</p>
+
+<p>&nbsp;</p>
+
+<p>We assume that you have some experience working with R, and know the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You are kindly asked to have R and Positron and the internet browser Firefox installed before the course. You can install R for Windows <a href=""https://cran.r-project.org/bin/windows/base/"">here</a> and for Mac <a href=""https://cran.r-project.org/bin/macosx/"">here</a>. You can install Positron for Windows and Mac <a href=""https://posit.co/download/rstudio-desktop/"">here</a>.&nbsp;</p>
+
+<p>The course will be held in English if any participant requests it. If everyone speaks Danish it can be held in Danish</p>";https://kubkalender.kb.dk/event/4486314;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486314;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;36627;R;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1765894597.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-12-16T14:50:05Z;TRUE;2026-01-30T05:00:00Z;40;11;0;0;11;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486314;Harvest data from webpages without APIs - with R;FALSE;2026-01-30T11:00:00Z;2026-01-30T13:30:00Z;2025-12-16T14:50:05Z;"<p><strong>About the winter school</strong></p>
+
+<p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
+
+<p>In short, it is up to you whether you wish to register for one or more courses.</p>
+
+<p>The winter school is organised in collaboration between Copenhagen University Library and Roskilde University Library.</p>
+
+<p><strong>About the course</strong></p>
+
+<p>Websites contain a lot text and data. Some of them have API&#39;s for easy download of data, but many don&#39;t. In this course you will learn how to harvest various parts of webpages that don&#39;t have APIs. You will learn how to inspect a website and identify the parts of it that you want to harvest, whether it be numbers or text, and use R to transform it into a workable format.&nbsp;</p>
+
+<p>This is called web scraping. One of the advantages is that we can harvest data and text that is spread over many pages instead of having to copy-paste each page manually. In addition, we can ensure that it is in a format that allows us to work with page&#39;s content. In this course we will harvest both numbers in tables about the demographics of University of Copenhagen Students as well as text about a political and societal issue, both past and present</p>
+
+<p>&nbsp;</p>
+
+<p>We assume that you have some experience working with R, and know the tidyverse. The level required is what you would learn on one of our introductory course in &quot;R for absolute beginners&quot;.&nbsp;</p>
+
+<p>You are kindly asked to have R and Positron and the internet browser Firefox installed before the course. You can install R for Windows <a href=""https://cran.r-project.org/bin/windows/base/"">here</a> and for Mac <a href=""https://cran.r-project.org/bin/macosx/"">here</a>. You can install Positron for Windows and Mac <a href=""https://posit.co/download/rstudio-desktop/"">here</a>.&nbsp;</p>
+
+<p>The course will be held in English if any participant requests it. If everyone speaks Danish it can be held in Danish</p>";https://kubkalender.kb.dk/event/4486314;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486314;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;43466;Søren Willer Hansen;NA;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/data/feat_img/1069/6416/1765894597.png;NA;0;NA;0;0;NA;NA;NA;NA;5673;FALSE;TRUE;2025-12-16T14:50:05Z;TRUE;2026-01-30T05:00:00Z;40;11;0;0;11;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4454078;Explorative data analysis with R;FALSE;2026-01-29T08:00:00Z;2026-01-29T10:00:00Z;2025-10-22T08:14:15Z;"<p><strong>About the winter school</strong></p>
 
 <p>As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</p>
