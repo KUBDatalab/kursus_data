@@ -1,4 +1,225 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;category_id;category_name;owner_id;owner_name;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;color;featured_image;geolocation;registration_cost;more_info;setup_time;teardown_time;audience_1_id;audience_1_name;audience_2_id;audience_2_name;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;audience_3_id;audience_3_name;zoom_email;campus_1
+4486406;Python for Absolute Beginners pt. 2;FALSE;2026-02-04T11:00:00Z;2026-02-04T14:30:00Z;2025-12-17T08:24:07Z;"<p><br />
+<strong>Note:&nbsp;This is part 2&nbsp;of 2. You can find part 1&nbsp;in our course calendar:</strong><br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>This course is intended for students who have never tried programming before and want to build their skills in Python from the bottom up.</p>
+
+<p>Intimidated by mathematics, numbers, and obscure Python scripts? Don&rsquo;t be!&nbsp;We will be covering all the very basic concepts and building blocks in order to get complete beginners, who have no experience writing code, working in Python.</p>
+
+<p>This will include explaining the concepts of variables and data types, as well generating some basic scripts to interact with these data, such as lists, loops, and conditionals.&nbsp;By the end of this course, you will have an understanding of the basic building blocks in Python. You will also come away with an appreciation for how a computer program &ldquo;thinks&rdquo;. All we require from you is a will to learn.&nbsp;We look forward to seeing you!</p>
+
+<p>The course is divided&nbsp;in two parts. The first covers different datatypes in Python and how data is stored. In other words, it is an introduction to the building blocks of coding in Python.</p>
+
+<p>The second part expands on this by putting these blocks together to create simple scripts. If you already have some understanding of Python, feel free to skip the first section. Otherwise, we recommend that you start with pt. 1 and then move on to pt. 2.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Practical information:</strong> We will be working in Jupyter Lab / Jupyter Notebook, which requires some installation, but you can also work in either Google Colabs or ERDA which require only a Google or KU account, respectively. For more information and help, consult &quot;Install &amp; Run Python&quot; on the course page:<br />
+<a href=""https://kubdatalab.github.io/python"" target=""_blank"">https://kubdatalab.github.io/python</a></p>
+
+<p>&nbsp;</p>
+
+<p>As written, this course is an introduction to the basics of Python. If you have never programmed before, this is a good place to start before you move on to some of our more advanced courses:<br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4486406;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486406;15906;0;KUB Datalab: City Campus Library;40;KUB City Campus, Gothersgade 140, 1123 København K;33562;Analysis;28221;Daniel Pryn;Benjamin Derksen & Daniel Pryn;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;25;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/Python_logo.jpg;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;5673;FALSE;TRUE;2025-12-17T08:24:07Z;TRUE;2026-02-04T14:30:00Z;25;13;0;0;13;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486406;Python for Absolute Beginners pt. 2;FALSE;2026-02-04T11:00:00Z;2026-02-04T14:30:00Z;2025-12-17T08:24:07Z;"<p><br />
+<strong>Note:&nbsp;This is part 2&nbsp;of 2. You can find part 1&nbsp;in our course calendar:</strong><br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>This course is intended for students who have never tried programming before and want to build their skills in Python from the bottom up.</p>
+
+<p>Intimidated by mathematics, numbers, and obscure Python scripts? Don&rsquo;t be!&nbsp;We will be covering all the very basic concepts and building blocks in order to get complete beginners, who have no experience writing code, working in Python.</p>
+
+<p>This will include explaining the concepts of variables and data types, as well generating some basic scripts to interact with these data, such as lists, loops, and conditionals.&nbsp;By the end of this course, you will have an understanding of the basic building blocks in Python. You will also come away with an appreciation for how a computer program &ldquo;thinks&rdquo;. All we require from you is a will to learn.&nbsp;We look forward to seeing you!</p>
+
+<p>The course is divided&nbsp;in two parts. The first covers different datatypes in Python and how data is stored. In other words, it is an introduction to the building blocks of coding in Python.</p>
+
+<p>The second part expands on this by putting these blocks together to create simple scripts. If you already have some understanding of Python, feel free to skip the first section. Otherwise, we recommend that you start with pt. 1 and then move on to pt. 2.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Practical information:</strong> We will be working in Jupyter Lab / Jupyter Notebook, which requires some installation, but you can also work in either Google Colabs or ERDA which require only a Google or KU account, respectively. For more information and help, consult &quot;Install &amp; Run Python&quot; on the course page:<br />
+<a href=""https://kubdatalab.github.io/python"" target=""_blank"">https://kubdatalab.github.io/python</a></p>
+
+<p>&nbsp;</p>
+
+<p>As written, this course is an introduction to the basics of Python. If you have never programmed before, this is a good place to start before you move on to some of our more advanced courses:<br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4486406;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486406;15906;0;KUB Datalab: City Campus Library;40;KUB City Campus, Gothersgade 140, 1123 København K;33564;English;28221;Daniel Pryn;Benjamin Derksen & Daniel Pryn;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;25;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/Python_logo.jpg;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;5673;FALSE;TRUE;2025-12-17T08:24:07Z;TRUE;2026-02-04T14:30:00Z;25;13;0;0;13;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486406;Python for Absolute Beginners pt. 2;FALSE;2026-02-04T11:00:00Z;2026-02-04T14:30:00Z;2025-12-17T08:24:07Z;"<p><br />
+<strong>Note:&nbsp;This is part 2&nbsp;of 2. You can find part 1&nbsp;in our course calendar:</strong><br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>This course is intended for students who have never tried programming before and want to build their skills in Python from the bottom up.</p>
+
+<p>Intimidated by mathematics, numbers, and obscure Python scripts? Don&rsquo;t be!&nbsp;We will be covering all the very basic concepts and building blocks in order to get complete beginners, who have no experience writing code, working in Python.</p>
+
+<p>This will include explaining the concepts of variables and data types, as well generating some basic scripts to interact with these data, such as lists, loops, and conditionals.&nbsp;By the end of this course, you will have an understanding of the basic building blocks in Python. You will also come away with an appreciation for how a computer program &ldquo;thinks&rdquo;. All we require from you is a will to learn.&nbsp;We look forward to seeing you!</p>
+
+<p>The course is divided&nbsp;in two parts. The first covers different datatypes in Python and how data is stored. In other words, it is an introduction to the building blocks of coding in Python.</p>
+
+<p>The second part expands on this by putting these blocks together to create simple scripts. If you already have some understanding of Python, feel free to skip the first section. Otherwise, we recommend that you start with pt. 1 and then move on to pt. 2.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Practical information:</strong> We will be working in Jupyter Lab / Jupyter Notebook, which requires some installation, but you can also work in either Google Colabs or ERDA which require only a Google or KU account, respectively. For more information and help, consult &quot;Install &amp; Run Python&quot; on the course page:<br />
+<a href=""https://kubdatalab.github.io/python"" target=""_blank"">https://kubdatalab.github.io/python</a></p>
+
+<p>&nbsp;</p>
+
+<p>As written, this course is an introduction to the basics of Python. If you have never programmed before, this is a good place to start before you move on to some of our more advanced courses:<br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4486406;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486406;15906;0;KUB Datalab: City Campus Library;40;KUB City Campus, Gothersgade 140, 1123 København K;36626;Python;28221;Daniel Pryn;Benjamin Derksen & Daniel Pryn;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;25;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/Python_logo.jpg;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;5673;FALSE;TRUE;2025-12-17T08:24:07Z;TRUE;2026-02-04T14:30:00Z;25;13;0;0;13;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486406;Python for Absolute Beginners pt. 2;FALSE;2026-02-04T11:00:00Z;2026-02-04T14:30:00Z;2025-12-17T08:24:07Z;"<p><br />
+<strong>Note:&nbsp;This is part 2&nbsp;of 2. You can find part 1&nbsp;in our course calendar:</strong><br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>This course is intended for students who have never tried programming before and want to build their skills in Python from the bottom up.</p>
+
+<p>Intimidated by mathematics, numbers, and obscure Python scripts? Don&rsquo;t be!&nbsp;We will be covering all the very basic concepts and building blocks in order to get complete beginners, who have no experience writing code, working in Python.</p>
+
+<p>This will include explaining the concepts of variables and data types, as well generating some basic scripts to interact with these data, such as lists, loops, and conditionals.&nbsp;By the end of this course, you will have an understanding of the basic building blocks in Python. You will also come away with an appreciation for how a computer program &ldquo;thinks&rdquo;. All we require from you is a will to learn.&nbsp;We look forward to seeing you!</p>
+
+<p>The course is divided&nbsp;in two parts. The first covers different datatypes in Python and how data is stored. In other words, it is an introduction to the building blocks of coding in Python.</p>
+
+<p>The second part expands on this by putting these blocks together to create simple scripts. If you already have some understanding of Python, feel free to skip the first section. Otherwise, we recommend that you start with pt. 1 and then move on to pt. 2.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Practical information:</strong> We will be working in Jupyter Lab / Jupyter Notebook, which requires some installation, but you can also work in either Google Colabs or ERDA which require only a Google or KU account, respectively. For more information and help, consult &quot;Install &amp; Run Python&quot; on the course page:<br />
+<a href=""https://kubdatalab.github.io/python"" target=""_blank"">https://kubdatalab.github.io/python</a></p>
+
+<p>&nbsp;</p>
+
+<p>As written, this course is an introduction to the basics of Python. If you have never programmed before, this is a good place to start before you move on to some of our more advanced courses:<br />
+<a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4486406;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486406;15906;0;KUB Datalab: City Campus Library;40;KUB City Campus, Gothersgade 140, 1123 København K;32027;Datalab;28221;Daniel Pryn;Benjamin Derksen & Daniel Pryn;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;25;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/Python_logo.jpg;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;5673;FALSE;TRUE;2025-12-17T08:24:07Z;TRUE;2026-02-04T14:30:00Z;25;13;0;0;13;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4414191;Åbent værksted i Labbet / drop in consultations at KUB Datalab;FALSE;2026-02-04T11:30:00Z;2026-02-04T13:30:00Z;2025-09-04T12:38:48Z;"<p>Having problems importing data? Or cleaning it? Is the structure weird, or are you getting strange error messages when you try to fit a model?</p>
+
+<p>Drop in with your data and your problem, and we will do our best to help you. We offer no opinions on what statistical test you should run on your data. But we will get it to work.&nbsp;</p>
+
+<p>No registration required, we try to assist everyone, but if necessary on a &quot;first-come, first-served&quot; basis</p>";https://kubkalender.kb.dk/event/4414191;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4414191;21575;2;Library Lighthouse, Zone 3;41;KUB North Campus, Nørre Allé 49, 2200 København N;33562;Analysis;16332;Christian Knudsen;Søren Davidsen, Henrik Hornemann & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;NA;FALSE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1680706557.jpg;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4414191;Åbent værksted i Labbet / drop in consultations at KUB Datalab;FALSE;2026-02-04T11:30:00Z;2026-02-04T13:30:00Z;2025-09-04T12:38:48Z;"<p>Having problems importing data? Or cleaning it? Is the structure weird, or are you getting strange error messages when you try to fit a model?</p>
+
+<p>Drop in with your data and your problem, and we will do our best to help you. We offer no opinions on what statistical test you should run on your data. But we will get it to work.&nbsp;</p>
+
+<p>No registration required, we try to assist everyone, but if necessary on a &quot;first-come, first-served&quot; basis</p>";https://kubkalender.kb.dk/event/4414191;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4414191;21575;2;Library Lighthouse, Zone 3;41;KUB North Campus, Nørre Allé 49, 2200 København N;33561;Cleaning;16332;Christian Knudsen;Søren Davidsen, Henrik Hornemann & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;NA;FALSE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1680706557.jpg;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4414191;Åbent værksted i Labbet / drop in consultations at KUB Datalab;FALSE;2026-02-04T11:30:00Z;2026-02-04T13:30:00Z;2025-09-04T12:38:48Z;"<p>Having problems importing data? Or cleaning it? Is the structure weird, or are you getting strange error messages when you try to fit a model?</p>
+
+<p>Drop in with your data and your problem, and we will do our best to help you. We offer no opinions on what statistical test you should run on your data. But we will get it to work.&nbsp;</p>
+
+<p>No registration required, we try to assist everyone, but if necessary on a &quot;first-come, first-served&quot; basis</p>";https://kubkalender.kb.dk/event/4414191;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4414191;21575;2;Library Lighthouse, Zone 3;41;KUB North Campus, Nørre Allé 49, 2200 København N;33560;Harvesting;16332;Christian Knudsen;Søren Davidsen, Henrik Hornemann & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;NA;FALSE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1680706557.jpg;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4414191;Åbent værksted i Labbet / drop in consultations at KUB Datalab;FALSE;2026-02-04T11:30:00Z;2026-02-04T13:30:00Z;2025-09-04T12:38:48Z;"<p>Having problems importing data? Or cleaning it? Is the structure weird, or are you getting strange error messages when you try to fit a model?</p>
+
+<p>Drop in with your data and your problem, and we will do our best to help you. We offer no opinions on what statistical test you should run on your data. But we will get it to work.&nbsp;</p>
+
+<p>No registration required, we try to assist everyone, but if necessary on a &quot;first-come, first-served&quot; basis</p>";https://kubkalender.kb.dk/event/4414191;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4414191;21575;2;Library Lighthouse, Zone 3;41;KUB North Campus, Nørre Allé 49, 2200 København N;33563;Visualisation;16332;Christian Knudsen;Søren Davidsen, Henrik Hornemann & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;NA;FALSE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1680706557.jpg;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4414191;Åbent værksted i Labbet / drop in consultations at KUB Datalab;FALSE;2026-02-04T11:30:00Z;2026-02-04T13:30:00Z;2025-09-04T12:38:48Z;"<p>Having problems importing data? Or cleaning it? Is the structure weird, or are you getting strange error messages when you try to fit a model?</p>
+
+<p>Drop in with your data and your problem, and we will do our best to help you. We offer no opinions on what statistical test you should run on your data. But we will get it to work.&nbsp;</p>
+
+<p>No registration required, we try to assist everyone, but if necessary on a &quot;first-come, first-served&quot; basis</p>";https://kubkalender.kb.dk/event/4414191;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4414191;21575;2;Library Lighthouse, Zone 3;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;16332;Christian Knudsen;Søren Davidsen, Henrik Hornemann & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;NA;FALSE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1680706557.jpg;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486412;NVivo for absolutte begyndere - på dansk;FALSE;2026-02-04T11:30:00Z;2026-02-04T14:00:00Z;2025-12-17T08:28:13Z;"<p><em>Please note that this course is in Danish.</em></p>
+
+<p>Introduktion til NVivo - et program, der er en stor hj&aelig;lp, n&aring;r du arbejder med kvalitativ dataanalyse.</p>
+
+<p>NVivo kan v&aelig;re nyttigt, hvis du vil organisere og/eller kode dit empiriske materiale eller litteratur. Det kan ogs&aring; v&aelig;re nyttigt, n&aring;r du vil transskribere lyd- eller videofiler, generere hypoteser osv.</p>
+
+<p>PC-versionen af NVivo har flere funktioner end Mac-versionen, men du kan deltage i alle &oslash;velser med begge, og vi vil demonstrere i begge</p>
+
+<p>&nbsp;</p>
+
+<p><b>Forberedelse f&oslash;r kurset:</b><br />
+Inden kurset bedes du forberede f&oslash;lgende:</p>
+
+<p>1. <strong>Download de filer</strong>, vi skal bruge under kurset, og gem dem p&aring; din computer et sted, hvor du nemt kan finde dem. Du finder dem&nbsp;<strong><a href=""https://absalon.ku.dk/courses/88011/files"" target=""_blank"">HERE</a>.&nbsp;</strong>Da vi kun har begr&aelig;nset tid til at nyde godt af hinandens selskab, er det&nbsp;<strong>vigtigt, at du inden da har installeret programmet, og vi anbefaler, at du har gennemg&aring;et tre s&aelig;t &oslash;velser </strong>som findes i det samme Absalon rum som filerne:<strong>&nbsp;https://absalon.ku.dk/courses/88011</strong></p>
+
+<p>2. <strong>Installer NVivo 14 eller NVivo 15.</strong> Installationen kan v&aelig;re vanskelig. L&aelig;s instruktionerne nedenfor omhyggeligt og giv dig selv god tid til at installere programmet. Hvis du har problemer med at installere NVivo, er du meget velkommen til at <a href=""https://kubkalender.kb.dk/event/4216765"">kigge forbi biblioteket</a> p&aring; N&oslash;rre all&eacute; hver onsdag mellem 12:30 og 14:30. Forvent ikke, at vi har tid til at hj&aelig;lpe med installationen under kurset.</p>
+
+<p>Download Nvivo for Windows:<br />
+NVivo 14:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo14/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo14/NVivo.x64.exe</a><br />
+NVivo 15:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe</a></p>
+
+<p>Download NVivo for Mac:<br />
+NVivo 14<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo14forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo14forMac/NVivo.dmg</a><br />
+NVivo 15:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg</a></p>
+
+<p>Du skal tilf&oslash;je en registreringsn&oslash;gle (licensn&oslash;gle) for at aktivere programmet efter download. N&oslash;glen er tilg&aelig;ngelig gennem&nbsp;<a href=""https://kunet.ku.dk/self-service/Pages/Software-library.aspx"" target=""_blank"">KU&#39;s softwarebibliotek</a>. Det er den samme n&oslash;gle for b&aring;de NVivo 14 og 15. N&aring;r du er i Softwarebiblioteket, skal du klikke p&aring; &quot;QSR International - NVivo&quot; og acceptere betingelserne. Klik p&aring; &quot;Licensn&oslash;gle&quot; for at f&aring; n&oslash;glen og klik p&aring; &quot;Vejledning&quot; for at downloade en PDF med installationsinstruktioner.</p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4486412;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486412;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33562;Analysis;38777;Lorna Wildgaard;Erik Schwägermann & Lorna Wildgaard;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;30;TRUE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1674211150.jpg;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;5673;FALSE;TRUE;2025-12-17T08:28:13Z;TRUE;2026-02-04T14:00:00Z;30;10;0;0;10;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486412;NVivo for absolutte begyndere - på dansk;FALSE;2026-02-04T11:30:00Z;2026-02-04T14:00:00Z;2025-12-17T08:28:13Z;"<p><em>Please note that this course is in Danish.</em></p>
+
+<p>Introduktion til NVivo - et program, der er en stor hj&aelig;lp, n&aring;r du arbejder med kvalitativ dataanalyse.</p>
+
+<p>NVivo kan v&aelig;re nyttigt, hvis du vil organisere og/eller kode dit empiriske materiale eller litteratur. Det kan ogs&aring; v&aelig;re nyttigt, n&aring;r du vil transskribere lyd- eller videofiler, generere hypoteser osv.</p>
+
+<p>PC-versionen af NVivo har flere funktioner end Mac-versionen, men du kan deltage i alle &oslash;velser med begge, og vi vil demonstrere i begge</p>
+
+<p>&nbsp;</p>
+
+<p><b>Forberedelse f&oslash;r kurset:</b><br />
+Inden kurset bedes du forberede f&oslash;lgende:</p>
+
+<p>1. <strong>Download de filer</strong>, vi skal bruge under kurset, og gem dem p&aring; din computer et sted, hvor du nemt kan finde dem. Du finder dem&nbsp;<strong><a href=""https://absalon.ku.dk/courses/88011/files"" target=""_blank"">HERE</a>.&nbsp;</strong>Da vi kun har begr&aelig;nset tid til at nyde godt af hinandens selskab, er det&nbsp;<strong>vigtigt, at du inden da har installeret programmet, og vi anbefaler, at du har gennemg&aring;et tre s&aelig;t &oslash;velser </strong>som findes i det samme Absalon rum som filerne:<strong>&nbsp;https://absalon.ku.dk/courses/88011</strong></p>
+
+<p>2. <strong>Installer NVivo 14 eller NVivo 15.</strong> Installationen kan v&aelig;re vanskelig. L&aelig;s instruktionerne nedenfor omhyggeligt og giv dig selv god tid til at installere programmet. Hvis du har problemer med at installere NVivo, er du meget velkommen til at <a href=""https://kubkalender.kb.dk/event/4216765"">kigge forbi biblioteket</a> p&aring; N&oslash;rre all&eacute; hver onsdag mellem 12:30 og 14:30. Forvent ikke, at vi har tid til at hj&aelig;lpe med installationen under kurset.</p>
+
+<p>Download Nvivo for Windows:<br />
+NVivo 14:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo14/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo14/NVivo.x64.exe</a><br />
+NVivo 15:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe</a></p>
+
+<p>Download NVivo for Mac:<br />
+NVivo 14<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo14forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo14forMac/NVivo.dmg</a><br />
+NVivo 15:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg</a></p>
+
+<p>Du skal tilf&oslash;je en registreringsn&oslash;gle (licensn&oslash;gle) for at aktivere programmet efter download. N&oslash;glen er tilg&aelig;ngelig gennem&nbsp;<a href=""https://kunet.ku.dk/self-service/Pages/Software-library.aspx"" target=""_blank"">KU&#39;s softwarebibliotek</a>. Det er den samme n&oslash;gle for b&aring;de NVivo 14 og 15. N&aring;r du er i Softwarebiblioteket, skal du klikke p&aring; &quot;QSR International - NVivo&quot; og acceptere betingelserne. Klik p&aring; &quot;Licensn&oslash;gle&quot; for at f&aring; n&oslash;glen og klik p&aring; &quot;Vejledning&quot; for at downloade en PDF med installationsinstruktioner.</p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4486412;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486412;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;33564;English;38777;Lorna Wildgaard;Erik Schwägermann & Lorna Wildgaard;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;30;TRUE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1674211150.jpg;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;5673;FALSE;TRUE;2025-12-17T08:28:13Z;TRUE;2026-02-04T14:00:00Z;30;10;0;0;10;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4486412;NVivo for absolutte begyndere - på dansk;FALSE;2026-02-04T11:30:00Z;2026-02-04T14:00:00Z;2025-12-17T08:28:13Z;"<p><em>Please note that this course is in Danish.</em></p>
+
+<p>Introduktion til NVivo - et program, der er en stor hj&aelig;lp, n&aring;r du arbejder med kvalitativ dataanalyse.</p>
+
+<p>NVivo kan v&aelig;re nyttigt, hvis du vil organisere og/eller kode dit empiriske materiale eller litteratur. Det kan ogs&aring; v&aelig;re nyttigt, n&aring;r du vil transskribere lyd- eller videofiler, generere hypoteser osv.</p>
+
+<p>PC-versionen af NVivo har flere funktioner end Mac-versionen, men du kan deltage i alle &oslash;velser med begge, og vi vil demonstrere i begge</p>
+
+<p>&nbsp;</p>
+
+<p><b>Forberedelse f&oslash;r kurset:</b><br />
+Inden kurset bedes du forberede f&oslash;lgende:</p>
+
+<p>1. <strong>Download de filer</strong>, vi skal bruge under kurset, og gem dem p&aring; din computer et sted, hvor du nemt kan finde dem. Du finder dem&nbsp;<strong><a href=""https://absalon.ku.dk/courses/88011/files"" target=""_blank"">HERE</a>.&nbsp;</strong>Da vi kun har begr&aelig;nset tid til at nyde godt af hinandens selskab, er det&nbsp;<strong>vigtigt, at du inden da har installeret programmet, og vi anbefaler, at du har gennemg&aring;et tre s&aelig;t &oslash;velser </strong>som findes i det samme Absalon rum som filerne:<strong>&nbsp;https://absalon.ku.dk/courses/88011</strong></p>
+
+<p>2. <strong>Installer NVivo 14 eller NVivo 15.</strong> Installationen kan v&aelig;re vanskelig. L&aelig;s instruktionerne nedenfor omhyggeligt og giv dig selv god tid til at installere programmet. Hvis du har problemer med at installere NVivo, er du meget velkommen til at <a href=""https://kubkalender.kb.dk/event/4216765"">kigge forbi biblioteket</a> p&aring; N&oslash;rre all&eacute; hver onsdag mellem 12:30 og 14:30. Forvent ikke, at vi har tid til at hj&aelig;lpe med installationen under kurset.</p>
+
+<p>Download Nvivo for Windows:<br />
+NVivo 14:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo14/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo14/NVivo.x64.exe</a><br />
+NVivo 15:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe</a></p>
+
+<p>Download NVivo for Mac:<br />
+NVivo 14<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo14forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo14forMac/NVivo.dmg</a><br />
+NVivo 15:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg</a></p>
+
+<p>Du skal tilf&oslash;je en registreringsn&oslash;gle (licensn&oslash;gle) for at aktivere programmet efter download. N&oslash;glen er tilg&aelig;ngelig gennem&nbsp;<a href=""https://kunet.ku.dk/self-service/Pages/Software-library.aspx"" target=""_blank"">KU&#39;s softwarebibliotek</a>. Det er den samme n&oslash;gle for b&aring;de NVivo 14 og 15. N&aring;r du er i Softwarebiblioteket, skal du klikke p&aring; &quot;QSR International - NVivo&quot; og acceptere betingelserne. Klik p&aring; &quot;Licensn&oslash;gle&quot; for at f&aring; n&oslash;glen og klik p&aring; &quot;Vejledning&quot; for at downloade en PDF med installationsinstruktioner.</p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4486412;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486412;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;32027;Datalab;38777;Lorna Wildgaard;Erik Schwägermann & Lorna Wildgaard;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;30;TRUE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1674211150.jpg;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;5673;FALSE;TRUE;2025-12-17T08:28:13Z;TRUE;2026-02-04T14:00:00Z;30;10;0;0;10;TRUE;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4454087;R and APIs - Statistics Denmark;FALSE;2026-01-30T08:00:00Z;2026-01-30T10:00:00Z;2025-10-22T08:27:12Z;"<p><span style=""font-size:14px;""><strong>About the winter school</strong></span></p>
 
 <p><span style=""font-size:16px;"">As a new initiative, KUB Datalab has organised a so-called winter school. The aim is to give participants the opportunity to engage intensively with R for an entire week. You will therefore be able to tailor a programme that suits your specific needs and level of experience. Please note that you must register for each course individually.</span></p>
