@@ -1,4 +1,36 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;audience_1_id;audience_1_name;category_id;category_name;owner_id;owner_name;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;color;featured_image;featured_image_alt_text;geolocation;registration_cost;more_info;setup_time;teardown_time;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;audience_2_id;audience_2_name;audience_3_id;audience_3_name;zoom_email;campus_1
+4486109;NVivo for absolutte begyndere - på dansk;FALSE;2026-03-12T09:00:00Z;2026-03-12T11:30:00Z;2025-12-16T11:18:07Z;"<p><br />
+Introduktion til programmet NVivo, som er en stor hj&aelig;lp til kvalitativ dataanalyse. NVivo kan bl.a. hj&aelig;lpe dig med at organisere og kode din empiri og litteratur, generere hypoteser, transskribere din lyd/video og meget andet.</p>
+
+<p>PC-versionen af NVivo har mere udvidet&nbsp;funktionalitet end Mac-versionen, men man kan deltage i alle &oslash;velser uanset version, og undervisningen vil ligeledes blive demonstreret i begge.</p>
+
+<p>&nbsp;</p>
+
+<p>Du bedes forud for kurset have installeret den version af NVivo, der hedder NVivo 15.</p>
+
+<p>Det kan du g&oslash;re her til Windows:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe</a></p>
+
+<p>Og her til Mac:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg</a></p>
+
+<p>Benyt&nbsp;derefter&nbsp;registreringsn&oslash;gle fra&nbsp;<a href=""https://kunet.ku.dk/self-service/Pages/Software-library.aspx"" target=""_blank"">KU&rsquo;s Softwarebibliotek</a>. (N&oslash;glen findes under linket &quot;QSR International - NVivo&quot;.)</p>
+
+<p>Skulle der v&aelig;re vanskeligheder med installation eller andet, er det KUs IT-servicedesk,&nbsp;du skal rette henvendelse til.</p>
+
+<p>&nbsp;</p>
+
+<p>Benyt&nbsp;derefter&nbsp;registreringsn&oslash;gle fra&nbsp;<a href=""https://kunet.ku.dk/self-service/Pages/Software-library.aspx"" target=""_blank"">KU&rsquo;s Softwarebibliotek</a>.</p>
+
+<p><strong>Bem&aelig;rk:</strong> NVivo findes i Sofwarebiblioteket under linket &quot;QSR International - NVivo&quot;.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Du bedes ligeledes forud for kurset gennemg&aring; et par introducerende &oslash;velser, som du kan l&aelig;se om <a href=""https://absalon.ku.dk/courses/71442"" target=""_blank"">HER</a>.</strong></p>
+
+<p>&nbsp;</p>
+
+<p>Gennemf&oslash;res ved min. seks tilmeldte.</p>";https://kubkalender.kb.dk/event/4486109;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4486109;98;0;Library Lighthouse, zone 1, Library Lighthouse, zone 2;41;KUB North Campus, Nørre Allé 49, 2200 København N;1021;Level 1 - Beginner / Begynder;32027;Datalab;40172;Benjamin Derksen;Benjamin Derksen & Erik Schwägermann;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;25;TRUE;5673;FALSE;TRUE;2025-12-16T11:18:07Z;TRUE;2026-03-12T11:30:00Z;25;12;0;0;12;TRUE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1644571897.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4486413;Python for Absolute Beginners pt. 2;FALSE;2026-03-11T08:30:00Z;2026-03-11T12:00:00Z;2025-12-17T08:28:24Z;"<p><br />
 <strong>Note:&nbsp;This is part 2&nbsp;of 2. You can find part 1&nbsp;in our course calendar:</strong><br />
 <a href=""https://kubkalender.kb.dk/calendar/datalab"" target=""_blank"">https://kubkalender.kb.dk/calendar/datalab</a></p>
