@@ -1,124 +1,220 @@
 event_id;tilm_type;booking_id;registration_type;first_name;last_name;barcode;phone;email;registered_date;attendance;qid;question;answer
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15967;Faculty;Other university than UCPH
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";media and communication
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15969;Programme level;Master
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15973;Where did you hear about this event?;Poster or flyer
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5170347;in-person;TRUE;NA;;;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15967;Faculty;Faculty of Science (UCPH)
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Food Science and Technology
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15969;Programme level;Master
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15972;May we contact you in regards to future courses and events?;No
-4486413;registrants;5175286;in-person;TRUE;NA;;;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15967;Faculty;Faculty of Health and Medical Sciences (UCPH)
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Medicine
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15969;Programme level;Master
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;21065;Which operating system do you use?;Windows
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15973;Where did you hear about this event?;The library's web page
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15972;May we contact you in regards to future courses and events?;No
-4486413;registrants;5181835;in-person;TRUE;NA;;;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Economics
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15969;Programme level;Bachelor
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5183314;in-person;FALSE;NA;;;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15967;Faculty;Faculty of Science (UCPH)
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";M3EP
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15969;Programme level;Master
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5183807;in-person;FALSE;NA;;;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15967;Faculty;Faculty of Science (UCPH)
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Neuroscience
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15969;Programme level;Master
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15972;May we contact you in regards to future courses and events?;No
-4486413;registrants;5198192;in-person;TRUE;NA;;;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15967;Faculty;Faculty of Science (UCPH)
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";SUFONAMA
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15969;Programme level;Master
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;21065;Which operating system do you use?;Windows
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5205760;in-person;TRUE;NA;;;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15967;Faculty;Faculty of Science (UCPH)
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Food Science and Technology
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15969;Programme level;Master
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;21065;Which operating system do you use?;Windows
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5208857;in-person;TRUE;NA;;;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Information studies
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15969;Programme level;Bachelor
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5209027;in-person;FALSE;NA;;;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15967;Faculty;Faculty of Science (UCPH)
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Physical and Computational Chemistry
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15969;Programme level;Master
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5211132;in-person;TRUE;NA;;;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Philosophy & Neuroscience
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15969;Programme level;Master
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5220655;in-person;TRUE;NA;;;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";economics
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15969;Programme level;Master
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15972;May we contact you in regards to future courses and events?;No
-4486413;registrants;5224611;in-person;TRUE;NA;;;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Economics
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15969;Programme level;Master
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;21065;Which operating system do you use?;Windows
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15973;Where did you hear about this event?;The library's web page
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5225113;in-person;TRUE;NA;;;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Security Risk Management
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15969;Programme level;Master
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;21065;Which operating system do you use?;macOS
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15973;Where did you hear about this event?;The library's web page
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15972;May we contact you in regards to future courses and events?;No
-4486413;registrants;5236249;in-person;TRUE;NA;;;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15967;Faculty;Faculty of Science (UCPH)
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Actuarial Mathematics
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15969;Programme level;Bachelor
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15970;Level of experience in regards to course subject;Novice
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;21065;Which operating system do you use?;Windows
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15973;Where did you hear about this event?;KUnet
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
-4486413;registrants;5241991;in-person;FALSE;NA;;;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";European Etnology
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;15969;Programme level;Master
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;21065;Which operating system do you use?;macOS
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;15973;Where did you hear about this event?;KUnet
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5186023;in-person;TRUE;NA;;;4fb0464ce6f5e49ededd9abaa1f9ba4e;2026-02-03T17:17:39+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Danish as a Second Language
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;15969;Programme level;Other
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;21065;Which operating system do you use?;Windows
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;15973;Where did you hear about this event?;Word of mouth
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486109;registrants;5208901;in-person;TRUE;NA;;;9a1036e512a68a995c9040a581b1ac68;2026-02-17T13:54:07+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;15967;Faculty;Faculty of Health and Medical Sciences (UCPH)
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Folkesundhedsvidenskab
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;15969;Programme level;Master
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;21065;Which operating system do you use?;macOS
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;15973;Where did you hear about this event?;Word of mouth
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5211453;in-person;TRUE;NA;;;46aadd5e22dbe67d1c277aa5cf90d587;2026-02-18T17:46:42+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Galleries, Libraries, Archives and Museums
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;15969;Programme level;PhD
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;21065;Which operating system do you use?;Windows
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;15973;Where did you hear about this event?;Word of mouth
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5211958;in-person;TRUE;NA;;;42d943b33af742a65dc80995888b5990;2026-02-19T09:50:10+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Kommunikation og IT
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;15969;Programme level;Master
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;21065;Which operating system do you use?;Windows
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;15973;Where did you hear about this event?;Word of mouth
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486109;registrants;5224052;in-person;TRUE;NA;;;4fc218a82fb0a968ef00e5e0e36a5884;2026-02-26T14:58:04+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Statskundskab
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;15969;Programme level;Bachelor
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;21065;Which operating system do you use?;macOS
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;15973;Where did you hear about this event?;KUnet
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5225684;in-person;TRUE;NA;;;1b916e6533fcd719620ce9dcbd9e3e54;2026-02-27T13:42:03+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;15967;Faculty;Faculty of Health and Medical Sciences (UCPH)
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Public Health
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;15969;Programme level;Master
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;21065;Which operating system do you use?;Windows
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;15973;Where did you hear about this event?;The library's web page
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486109;registrants;5228079;in-person;TRUE;NA;;;c184869c4e27affadab6e4f8c70b09a7;2026-03-02T10:00:12+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Statskundskab
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;15969;Programme level;Master
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;21065;Which operating system do you use?;macOS
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;15973;Where did you hear about this event?;The library's web page
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5230936;in-person;TRUE;NA;;;23d934bb428808fb22b352d01cd99829;2026-03-03T13:30:03+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Statskundskab
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;15969;Programme level;Bachelor
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;21065;Which operating system do you use?;macOS
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;15973;Where did you hear about this event?;Word of mouth
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5233907;in-person;TRUE;NA;;;2c9b0f10ae6c2402016337966969909a;2026-03-05T09:21:53+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;15967;Faculty;Faculty of Health and Medical Sciences (UCPH)
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Folkesundhedsvidenskab/public health science
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;15969;Programme level;Master
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;21065;Which operating system do you use?;Windows
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;15973;Where did you hear about this event?;KUnet
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5234559;in-person;TRUE;NA;;;63d51434a47ca786d1bbea0fd5311a01;2026-03-05T13:11:59+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";psychology
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;15969;Programme level;Master
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;21065;Which operating system do you use?;Windows
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;15973;Where did you hear about this event?;The library's web page
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486109;registrants;5234767;in-person;TRUE;NA;;;523c39d0edaa45044073d634f669df2c;2026-03-05T14:46:35+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Statskundskab
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;15969;Programme level;Master
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;21065;Which operating system do you use?;Windows
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;15973;Where did you hear about this event?;The library's web page
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486109;registrants;5241514;in-person;FALSE;NA;;;2e58d1726b5ef61e3eb92eec11af9c19;2026-03-10T17:21:01+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15967;Faculty;Other university than UCPH
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";media and communication
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15969;Programme level;Master
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15973;Where did you hear about this event?;Poster or flyer
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5170347;in-person;TRUE;NA;NA;NA;3fa7a2375700bbb06078d40d85586967;2026-01-26T17:08:50+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15967;Faculty;Faculty of Science (UCPH)
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Food Science and Technology
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15969;Programme level;Master
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486413;registrants;5175286;in-person;TRUE;NA;NA;NA;9e20028597efd5cc19d990e0debb80b0;2026-01-28T15:54:49+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15967;Faculty;Faculty of Health and Medical Sciences (UCPH)
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Medicine
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15969;Programme level;Master
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;21065;Which operating system do you use?;Windows
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15973;Where did you hear about this event?;The library's web page
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486413;registrants;5181835;in-person;TRUE;NA;NA;NA;62f4a2a1e05bd78dba990e1623a27ea8;2026-02-02T08:06:36+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Economics
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15969;Programme level;Bachelor
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5183314;in-person;FALSE;NA;NA;NA;844777b151579f38aaad44f3111f6291;2026-02-02T16:01:26+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15967;Faculty;Faculty of Science (UCPH)
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";M3EP
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15969;Programme level;Master
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5183807;in-person;FALSE;NA;NA;NA;134144e2b588dc68f88c447589c82e6a;2026-02-02T19:17:07+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15967;Faculty;Faculty of Science (UCPH)
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Neuroscience
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15969;Programme level;Master
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486413;registrants;5198192;in-person;TRUE;NA;NA;NA;a4dc39025ffc3b7b5dd2b1422051fbd9;2026-02-10T18:17:15+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15967;Faculty;Faculty of Science (UCPH)
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";SUFONAMA
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15969;Programme level;Master
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;21065;Which operating system do you use?;Windows
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5205760;in-person;TRUE;NA;NA;NA;d715aa46fd669999187519fe9e9a4043;2026-02-16T11:58:06+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15967;Faculty;Faculty of Science (UCPH)
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Food Science and Technology
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15969;Programme level;Master
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;21065;Which operating system do you use?;Windows
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5208857;in-person;TRUE;NA;NA;NA;f122812f4666084afa37b5c3867902ce;2026-02-17T13:39:03+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Information studies
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15969;Programme level;Bachelor
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5209027;in-person;FALSE;NA;NA;NA;f5e5b1448f48a2b26ca05164f648b653;2026-02-17T14:27:41+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15967;Faculty;Faculty of Science (UCPH)
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Physical and Computational Chemistry
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15969;Programme level;Master
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5211132;in-person;TRUE;NA;NA;NA;b5d33411151bea2fb76ecea4536495dd;2026-02-18T15:50:26+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15967;Faculty;Faculty of Humanities (UCPH)
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Philosophy & Neuroscience
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15969;Programme level;Master
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5220655;in-person;TRUE;NA;NA;NA;feada5471eff818ab24ab24362da00e4;2026-02-24T17:20:44+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";economics
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15969;Programme level;Master
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486413;registrants;5224611;in-person;TRUE;NA;NA;NA;9226fc299cee95d8db66bc21dcf8bb43;2026-02-26T20:13:12+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Economics
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15969;Programme level;Master
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;21065;Which operating system do you use?;Windows
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15973;Where did you hear about this event?;The library's web page
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5225113;in-person;TRUE;NA;NA;NA;8d2ded7d2e20cae47d085f400b08c95d;2026-02-27T10:41:37+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Security Risk Management
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15969;Programme level;Master
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;21065;Which operating system do you use?;macOS
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15973;Where did you hear about this event?;The library's web page
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15972;May we contact you in regards to future courses and events?;No
+4486413;registrants;5236249;in-person;TRUE;NA;NA;NA;7c09f00f4e1ea54b3ce686178a45ea73;2026-03-06T14:09:22+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15967;Faculty;Faculty of Science (UCPH)
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15968;"Programme / Line of study (If not applicable, please write ""none"")";Actuarial Mathematics
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15969;Programme level;Bachelor
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15970;Level of experience in regards to course subject;Novice
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;21065;Which operating system do you use?;Windows
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15973;Where did you hear about this event?;KUnet
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15972;May we contact you in regards to future courses and events?;Yes
+4486413;registrants;5241991;in-person;FALSE;NA;NA;NA;4e8f7243da92e0754e2a50f9de6ec7cd;2026-03-11T08:07:17+01:00;-;15971;I hereby consent to The Royal Danish Library's Privacy and Personal Data Protection Policy (http://www.kb.dk/en/kb/webstedet/cookiepolitik.html).;I accept.
 4414196;registrants;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4414196;waitlist;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4472972;registrants;5159936;in-person;FALSE;NA;NA;NA;60a6c3d8c81bdd8bad87614a301be8a9;2026-01-20T13:03:28+01:00;-;15967;Faculty;Faculty of Social Sciences (UCPH)
