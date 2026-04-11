@@ -1,4 +1,92 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;campus_1;audience_1_id;audience_1_name;category_id;category_name;owner_id;owner_name;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;color;featured_image;featured_image_alt_text;geolocation;registration_cost;more_info;setup_time;teardown_time;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;audience_2_id;audience_2_name;audience_3_id;audience_3_name;zoom_email
+4465984;R for absolutte nybegyndere;FALSE;2026-04-10T07:00:00Z;2026-04-10T09:00:00Z;2025-12-03T09:49:00Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p>R et grenerelt programmeringssprog, som er s&aelig;rlig egnet til statistiske analyser og til rens og visualisering af data.</p>
+
+<p>Vi forventer ikke, at du har nogen erfaring med programmering. Derfor tager vi udgangspunkt i nogle af R&#39;s helt grundl&aelig;ggende funktionaliterer, som for eksempel:</p>
+
+<ul>
+	<li>Positrons&nbsp;gr&aelig;nseflade og hvordan marn interagerer med R</li>
+	<li>Datatyper, variable og objekter</li>
+	<li>Enkle aritmetiske og logiske operationer p&aring; data</li>
+	<li>At arbejde med funktioner og hvordan man selv skriver en enkel funktion</li>
+	<li>Import af data i R</li>
+	<li>Opsummerende statistik</li>
+	<li>Bearbejdning af tabeller</li>
+	<li>Simple grafer, som ser lige s&aring; brugbare, som de er element&aelig;re.</li>
+</ul>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""https://kubdatalab.github.io/R-intro/index.html#software-setup"" target=""_blank"">her</a>. Her finder du ogs&aring; kursusmaterialet samt de &oslash;velser, der gennemg&aring;s p&aring; kurset.</p>";https://kubkalender.kb.dk/event/4465984;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4465984;21573;2;Library Lighthouse, Zone 1;41;KUB North Campus, Nørre Allé 49, 2200 København N;NA;1021;Level 1 - Beginner / Begynder;33562;Analysis;44253;Søren Davidsen;Søren Davidsen & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;30;TRUE;5673;FALSE;TRUE;2025-12-03T09:49:00Z;TRUE;2026-04-10T07:00:00Z;30;28;0;0;28;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/R_logo.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4465984;R for absolutte nybegyndere;FALSE;2026-04-10T07:00:00Z;2026-04-10T09:00:00Z;2025-12-03T09:49:00Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p>R et grenerelt programmeringssprog, som er s&aelig;rlig egnet til statistiske analyser og til rens og visualisering af data.</p>
+
+<p>Vi forventer ikke, at du har nogen erfaring med programmering. Derfor tager vi udgangspunkt i nogle af R&#39;s helt grundl&aelig;ggende funktionaliterer, som for eksempel:</p>
+
+<ul>
+	<li>Positrons&nbsp;gr&aelig;nseflade og hvordan marn interagerer med R</li>
+	<li>Datatyper, variable og objekter</li>
+	<li>Enkle aritmetiske og logiske operationer p&aring; data</li>
+	<li>At arbejde med funktioner og hvordan man selv skriver en enkel funktion</li>
+	<li>Import af data i R</li>
+	<li>Opsummerende statistik</li>
+	<li>Bearbejdning af tabeller</li>
+	<li>Simple grafer, som ser lige s&aring; brugbare, som de er element&aelig;re.</li>
+</ul>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""https://kubdatalab.github.io/R-intro/index.html#software-setup"" target=""_blank"">her</a>. Her finder du ogs&aring; kursusmaterialet samt de &oslash;velser, der gennemg&aring;s p&aring; kurset.</p>";https://kubkalender.kb.dk/event/4465984;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4465984;21573;2;Library Lighthouse, Zone 1;41;KUB North Campus, Nørre Allé 49, 2200 København N;NA;1021;Level 1 - Beginner / Begynder;33561;Cleaning;44253;Søren Davidsen;Søren Davidsen & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;30;TRUE;5673;FALSE;TRUE;2025-12-03T09:49:00Z;TRUE;2026-04-10T07:00:00Z;30;28;0;0;28;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/R_logo.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4465984;R for absolutte nybegyndere;FALSE;2026-04-10T07:00:00Z;2026-04-10T09:00:00Z;2025-12-03T09:49:00Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p>R et grenerelt programmeringssprog, som er s&aelig;rlig egnet til statistiske analyser og til rens og visualisering af data.</p>
+
+<p>Vi forventer ikke, at du har nogen erfaring med programmering. Derfor tager vi udgangspunkt i nogle af R&#39;s helt grundl&aelig;ggende funktionaliterer, som for eksempel:</p>
+
+<ul>
+	<li>Positrons&nbsp;gr&aelig;nseflade og hvordan marn interagerer med R</li>
+	<li>Datatyper, variable og objekter</li>
+	<li>Enkle aritmetiske og logiske operationer p&aring; data</li>
+	<li>At arbejde med funktioner og hvordan man selv skriver en enkel funktion</li>
+	<li>Import af data i R</li>
+	<li>Opsummerende statistik</li>
+	<li>Bearbejdning af tabeller</li>
+	<li>Simple grafer, som ser lige s&aring; brugbare, som de er element&aelig;re.</li>
+</ul>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""https://kubdatalab.github.io/R-intro/index.html#software-setup"" target=""_blank"">her</a>. Her finder du ogs&aring; kursusmaterialet samt de &oslash;velser, der gennemg&aring;s p&aring; kurset.</p>";https://kubkalender.kb.dk/event/4465984;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4465984;21573;2;Library Lighthouse, Zone 1;41;KUB North Campus, Nørre Allé 49, 2200 København N;NA;1021;Level 1 - Beginner / Begynder;36627;R;44253;Søren Davidsen;Søren Davidsen & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;30;TRUE;5673;FALSE;TRUE;2025-12-03T09:49:00Z;TRUE;2026-04-10T07:00:00Z;30;28;0;0;28;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/R_logo.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4465984;R for absolutte nybegyndere;FALSE;2026-04-10T07:00:00Z;2026-04-10T09:00:00Z;2025-12-03T09:49:00Z;"<p>L&aelig;g venligst m&aelig;rke til, at kurset holdes p&aring; dansk.</p>
+
+<p><em>Please note that this course will be held in Danish. For courses in English, please visit the <a href=""https://kubkalender.kb.dk/calendar/datalab?cid=6416&amp;t=d&amp;d=0000-00-00&amp;cal=6416&amp;inc=0"" target=""_blank"">datalab course calendar</a>.</em></p>
+
+<p>&nbsp;</p>
+
+<p>R et grenerelt programmeringssprog, som er s&aelig;rlig egnet til statistiske analyser og til rens og visualisering af data.</p>
+
+<p>Vi forventer ikke, at du har nogen erfaring med programmering. Derfor tager vi udgangspunkt i nogle af R&#39;s helt grundl&aelig;ggende funktionaliterer, som for eksempel:</p>
+
+<ul>
+	<li>Positrons&nbsp;gr&aelig;nseflade og hvordan marn interagerer med R</li>
+	<li>Datatyper, variable og objekter</li>
+	<li>Enkle aritmetiske og logiske operationer p&aring; data</li>
+	<li>At arbejde med funktioner og hvordan man selv skriver en enkel funktion</li>
+	<li>Import af data i R</li>
+	<li>Opsummerende statistik</li>
+	<li>Bearbejdning af tabeller</li>
+	<li>Simple grafer, som ser lige s&aring; brugbare, som de er element&aelig;re.</li>
+</ul>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""https://kubdatalab.github.io/R-intro/index.html#software-setup"" target=""_blank"">her</a>. Her finder du ogs&aring; kursusmaterialet samt de &oslash;velser, der gennemg&aring;s p&aring; kurset.</p>";https://kubkalender.kb.dk/event/4465984;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4465984;21573;2;Library Lighthouse, Zone 1;41;KUB North Campus, Nørre Allé 49, 2200 København N;NA;1021;Level 1 - Beginner / Begynder;32027;Datalab;44253;Søren Davidsen;Søren Davidsen & Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;30;TRUE;5673;FALSE;TRUE;2025-12-03T09:49:00Z;TRUE;2026-04-10T07:00:00Z;30;28;0;0;28;TRUE;#18E0F2;https://libapps-eu.s3.amazonaws.com/customers/105/images/R_logo.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4486410;Python and Pandas - Getting Started with Data Analysis;FALSE;2026-04-08T07:30:00Z;2026-04-08T10:30:00Z;2025-12-17T08:27:16Z;"<p><br />
 <strong>This course is aimed at students who are new to Pandas but already have an introductory understanding of Python, such as can be gained from our &ldquo;Python for Absolute Beginners&rdquo; courses - pt. 1 and 2.</strong><br />
 We expect you to be familiar with all the concepts described under &quot;Python for Absolute Beginners&quot; here:<br />
