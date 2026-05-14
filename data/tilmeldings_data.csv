@@ -1,4 +1,6 @@
 event_id;tilm_type;last_name;booking_id;registration_type;first_name;barcode;phone;email;registered_date;attendance;qid;question;answer
+4414205;registrants;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4414205;waitlist;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4414204;registrants;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4414204;waitlist;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4465999;registrants;NA;5157348;online;TRUE;NA;NA;ab8bef44b3cf85d60a65a71896dad9f5;2026-01-19T12:37:33+01:00;-;15967;Faculty;Faculty of Science (UCPH)
