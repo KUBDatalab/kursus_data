@@ -1,4 +1,201 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;category_id;category_name;owner_id;owner_name;owner_email;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;color;featured_image;featured_image_alt_text;geolocation;registration_cost;more_info;setup_time;teardown_time;audience_1_id;audience_1_name;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;campus_1;audience_2_id;audience_2_name;audience_3_id;audience_3_name;zoom_email
+4541126;Introduktion til visualisering med ggplot2 i R / Introduction to visualising with ggplot2 in R;FALSE;2026-08-18T07:00:00Z;2026-08-18T09:00:00Z;2026-05-08T11:38:44Z;"<p>Visualisering kan bruges til at finde m&oslash;nstre i dine data, ligesom det kan bruges til at fort&aelig;lle en overbevisende historie om dine resultater.<br />
+Vi gennemg&aring;r det grundl&aelig;ggende i ggplot2, herunder forskellige typer plots, skalaer og facettering.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; kurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi s&aring;dan at vi ikke skal bruge tid p&aring; dette.</p>
+
+<p><a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk</p>
+
+<p>&nbsp;</p>
+
+<p><em>Visualisation can be used to identify patterns in your data, as well as to tell a compelling story about your results.</em></p>
+
+<p><em>We cover the basics of ggplot2, including different types of plots, scales and faceting.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. You will therefore have the opportunity to apply what you have already learnt, while further developing your knowledge and skills in R. A good way to prepare is therefore to attend one of our beginner courses.</em></p>
+
+<p><em>You are expected to have installed R and Positron/RStudio before the course, so that we do not have to spend time on this. <a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is generally taught in Danish, but if one or more participants request it, it will be held in English.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer.</p>
+
+<p>Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is week of teaching aimed at students at Roskilde University and University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills.</p>
+
+<p>It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4541126;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541126;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;36627;R;16332;Christian Knudsen;cbk@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T11:38:44Z;TRUE;2026-08-18T07:00:00Z;40;38;0;0;38;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_49_02.jpg;NA;NA;0;NA;0;0;1022;Level 2 - Basic / Let øvet;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541126;Introduktion til visualisering med ggplot2 i R / Introduction to visualising with ggplot2 in R;FALSE;2026-08-18T07:00:00Z;2026-08-18T09:00:00Z;2026-05-08T11:38:44Z;"<p>Visualisering kan bruges til at finde m&oslash;nstre i dine data, ligesom det kan bruges til at fort&aelig;lle en overbevisende historie om dine resultater.<br />
+Vi gennemg&aring;r det grundl&aelig;ggende i ggplot2, herunder forskellige typer plots, skalaer og facettering.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; kurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi s&aring;dan at vi ikke skal bruge tid p&aring; dette.</p>
+
+<p><a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk</p>
+
+<p>&nbsp;</p>
+
+<p><em>Visualisation can be used to identify patterns in your data, as well as to tell a compelling story about your results.</em></p>
+
+<p><em>We cover the basics of ggplot2, including different types of plots, scales and faceting.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. You will therefore have the opportunity to apply what you have already learnt, while further developing your knowledge and skills in R. A good way to prepare is therefore to attend one of our beginner courses.</em></p>
+
+<p><em>You are expected to have installed R and Positron/RStudio before the course, so that we do not have to spend time on this. <a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is generally taught in Danish, but if one or more participants request it, it will be held in English.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer.</p>
+
+<p>Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is week of teaching aimed at students at Roskilde University and University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills.</p>
+
+<p>It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4541126;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541126;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;38246;Summer School;16332;Christian Knudsen;cbk@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T11:38:44Z;TRUE;2026-08-18T07:00:00Z;40;38;0;0;38;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_49_02.jpg;NA;NA;0;NA;0;0;1022;Level 2 - Basic / Let øvet;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541126;Introduktion til visualisering med ggplot2 i R / Introduction to visualising with ggplot2 in R;FALSE;2026-08-18T07:00:00Z;2026-08-18T09:00:00Z;2026-05-08T11:38:44Z;"<p>Visualisering kan bruges til at finde m&oslash;nstre i dine data, ligesom det kan bruges til at fort&aelig;lle en overbevisende historie om dine resultater.<br />
+Vi gennemg&aring;r det grundl&aelig;ggende i ggplot2, herunder forskellige typer plots, skalaer og facettering.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; kurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi s&aring;dan at vi ikke skal bruge tid p&aring; dette.</p>
+
+<p><a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk</p>
+
+<p>&nbsp;</p>
+
+<p><em>Visualisation can be used to identify patterns in your data, as well as to tell a compelling story about your results.</em></p>
+
+<p><em>We cover the basics of ggplot2, including different types of plots, scales and faceting.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. You will therefore have the opportunity to apply what you have already learnt, while further developing your knowledge and skills in R. A good way to prepare is therefore to attend one of our beginner courses.</em></p>
+
+<p><em>You are expected to have installed R and Positron/RStudio before the course, so that we do not have to spend time on this. <a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is generally taught in Danish, but if one or more participants request it, it will be held in English.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer.</p>
+
+<p>Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is week of teaching aimed at students at Roskilde University and University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills.</p>
+
+<p>It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4541126;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541126;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;33563;Visualisation;16332;Christian Knudsen;cbk@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T11:38:44Z;TRUE;2026-08-18T07:00:00Z;40;38;0;0;38;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_49_02.jpg;NA;NA;0;NA;0;0;1022;Level 2 - Basic / Let øvet;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541126;Introduktion til visualisering med ggplot2 i R / Introduction to visualising with ggplot2 in R;FALSE;2026-08-18T07:00:00Z;2026-08-18T09:00:00Z;2026-05-08T11:38:44Z;"<p>Visualisering kan bruges til at finde m&oslash;nstre i dine data, ligesom det kan bruges til at fort&aelig;lle en overbevisende historie om dine resultater.<br />
+Vi gennemg&aring;r det grundl&aelig;ggende i ggplot2, herunder forskellige typer plots, skalaer og facettering.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; kurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi s&aring;dan at vi ikke skal bruge tid p&aring; dette.</p>
+
+<p><a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk</p>
+
+<p>&nbsp;</p>
+
+<p><em>Visualisation can be used to identify patterns in your data, as well as to tell a compelling story about your results.</em></p>
+
+<p><em>We cover the basics of ggplot2, including different types of plots, scales and faceting.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. You will therefore have the opportunity to apply what you have already learnt, while further developing your knowledge and skills in R. A good way to prepare is therefore to attend one of our beginner courses.</em></p>
+
+<p><em>You are expected to have installed R and Positron/RStudio before the course, so that we do not have to spend time on this. <a href=""https://kubdatalab.github.io/R-visualisation/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is generally taught in Danish, but if one or more participants request it, it will be held in English.</em></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer.</p>
+
+<p>Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is week of teaching aimed at students at Roskilde University and University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills.</p>
+
+<p>It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4541126;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541126;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;32027;Datalab;16332;Christian Knudsen;cbk@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T11:38:44Z;TRUE;2026-08-18T07:00:00Z;40;38;0;0;38;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_49_02.jpg;NA;NA;0;NA;0;0;1022;Level 2 - Basic / Let øvet;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541789;Tekstanalyse med R på dansk;FALSE;2026-08-18T10:00:00Z;2026-08-18T12:00:00Z;2026-05-13T07:15:00Z;"<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""https://kubdatalab.github.io/R-textmining/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4541789;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541789;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;36627;R;44253;Søren Davidsen;sdav@kb.dk;Søren Willer Hansen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-13T07:15:00Z;TRUE;2026-08-18T10:00:00Z;40;21;0;0;21;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_49_43.jpg;NA;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541789;Tekstanalyse med R på dansk;FALSE;2026-08-18T10:00:00Z;2026-08-18T12:00:00Z;2026-05-13T07:15:00Z;"<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""https://kubdatalab.github.io/R-textmining/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4541789;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541789;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;38246;Summer School;44253;Søren Davidsen;sdav@kb.dk;Søren Willer Hansen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-13T07:15:00Z;TRUE;2026-08-18T10:00:00Z;40;21;0;0;21;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_49_43.jpg;NA;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541789;Tekstanalyse med R på dansk;FALSE;2026-08-18T10:00:00Z;2026-08-18T12:00:00Z;2026-05-13T07:15:00Z;"<p><strong>Om kurset</strong></p>
+
+<p>P&aring; dette kursus l&aelig;rer du at analysere en stor m&aelig;ngde tekster med programmeringssproget R. Dette kaldes text mining og g&oslash;r det muligt at analysere indholdet af en stor samling tekster, som det ellers ville tage meget langt tid at l&aelig;se. Du l&aelig;rer at forberede tekster til analyse, analysere teksternes emne og visualisere dine analyser. Vi kommer til at analysere debatter fra Folketinget, men metoderne du l&aelig;rer kan anvendes p&aring; alle tekster.&nbsp;</p>
+
+<p>For at deltage i kurset foruds&aelig;ttes det, at du har en vis erfaring med programmering i R, og at du er bekendt med tidyverse. Dette svarer til, hvad man l&aelig;rer p&aring; <a href=""https://kubdatalab.github.io/R-intro/index.html"" target=""_blank"">vores grundl&aelig;ggende R-kursus.</a></p>
+
+<p>Forud for kurset beder vi dig om at installere R og Positron eller at oprette en konto p&aring; rstudio.cloud. Du kan l&aelig;se mere om, hvordan man g&oslash;r, <a href=""https://kubdatalab.github.io/R-textmining/setup.html"" target=""_blank"">her</a><a href=""https://kubdatalab.github.io/R-intro/setup.html"">.</a></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>";https://kubkalender.kb.dk/event/4541789;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541789;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;32027;Datalab;44253;Søren Davidsen;sdav@kb.dk;Søren Willer Hansen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-13T07:15:00Z;TRUE;2026-08-18T10:00:00Z;40;21;0;0;21;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_49_43.jpg;NA;NA;0;NA;0;0;1021;Level 1 - Beginner / Begynder;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4540857;R for absolutte nybegyndere;FALSE;2026-08-17T07:00:00Z;2026-08-17T10:00:00Z;2026-05-07T11:35:23Z;"<p>R er et programmeringssprog, som oprindeligt blev udviklet til statistiske analyser men i dag bruges til mange forskellige form&aring;l. Derfor kan det b&aring;de bruges til analyser af tal og tekst.</p>
 
 <p>Dette kursus er en grundl&aelig;ggende introduktion til R. Der kr&aelig;ves ingen erfaring med programmering for at kunne deltage.</p>
