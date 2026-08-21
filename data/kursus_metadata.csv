@@ -1,4 +1,178 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;category_id;category_name;owner_id;owner_name;owner_email;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;registration_form_id;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;color;featured_image;featured_image_alt_text;geolocation;registration_cost;more_info;setup_time;teardown_time;audience_1_id;audience_1_name;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;campus_1;audience_2_id;audience_2_name;audience_3_id;audience_3_name;zoom_email
+4540968;Lær at lave statistiske analyser med R / Learn to perform statistical analyses with R;FALSE;2026-08-20T07:00:00Z;2026-08-20T09:00:00Z;2026-05-08T06:57:23Z;"<p>Vil du gerne l&aelig;re, hvordan man kan foretage statistiske analyser ved hj&aelig;lp af R? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til, hvordan man kan lave statistiske analyser i R. P&aring; kurset vil emner som deskriptiv statistik, normalfordeling og regression blive ber&oslash;rt.</p>
+
+<p>Dette er ikke et statistikkursus, s&aring; et basalt kendskab til statistiske begreber foruds&aelig;ttes.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; statistikkurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi kan n&aring; s&aring; langt som muligt p&aring; kurset. <a href=""https://kubdatalab.github.io/R-statistic/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p><em>Would you like to learn how to carry out statistical analyses using R? Then this course may be for you. The course provides an introduction to how statistical analyses can be conducted in R. Topics covered include descriptive statistics, the normal distribution, and regression.</em></p>
+
+<p><em>This is not a statistics course, so a basic understanding of statistical concepts is required.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. In this statistics course, you will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R. As preparation, it may be beneficial to attend one of our beginner courses.</em></p>
+
+<p><em>It is assumed that you have installed R and Positron/RStudio before the course so that we can make as much progress as possible. <a href=""https://kubdatalab.github.io/R-statistic/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</em></p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is an educational programme aimed at students at Roskilde University and the University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills. It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4540968;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4540968;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;36627;R;44253;Søren Davidsen;sdav@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T06:57:23Z;TRUE;2026-08-20T07:00:00Z;40;37;0;0;37;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_50_38.jpg;NA;NA;0;NA;0;0;1022;Level 2 - Basic / Let øvet;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4540968;Lær at lave statistiske analyser med R / Learn to perform statistical analyses with R;FALSE;2026-08-20T07:00:00Z;2026-08-20T09:00:00Z;2026-05-08T06:57:23Z;"<p>Vil du gerne l&aelig;re, hvordan man kan foretage statistiske analyser ved hj&aelig;lp af R? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til, hvordan man kan lave statistiske analyser i R. P&aring; kurset vil emner som deskriptiv statistik, normalfordeling og regression blive ber&oslash;rt.</p>
+
+<p>Dette er ikke et statistikkursus, s&aring; et basalt kendskab til statistiske begreber foruds&aelig;ttes.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; statistikkurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi kan n&aring; s&aring; langt som muligt p&aring; kurset. <a href=""https://kubdatalab.github.io/R-statistic/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p><em>Would you like to learn how to carry out statistical analyses using R? Then this course may be for you. The course provides an introduction to how statistical analyses can be conducted in R. Topics covered include descriptive statistics, the normal distribution, and regression.</em></p>
+
+<p><em>This is not a statistics course, so a basic understanding of statistical concepts is required.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. In this statistics course, you will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R. As preparation, it may be beneficial to attend one of our beginner courses.</em></p>
+
+<p><em>It is assumed that you have installed R and Positron/RStudio before the course so that we can make as much progress as possible. <a href=""https://kubdatalab.github.io/R-statistic/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</em></p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is an educational programme aimed at students at Roskilde University and the University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills. It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4540968;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4540968;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;38246;Summer School;44253;Søren Davidsen;sdav@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T06:57:23Z;TRUE;2026-08-20T07:00:00Z;40;37;0;0;37;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_50_38.jpg;NA;NA;0;NA;0;0;1022;Level 2 - Basic / Let øvet;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4540968;Lær at lave statistiske analyser med R / Learn to perform statistical analyses with R;FALSE;2026-08-20T07:00:00Z;2026-08-20T09:00:00Z;2026-05-08T06:57:23Z;"<p>Vil du gerne l&aelig;re, hvordan man kan foretage statistiske analyser ved hj&aelig;lp af R? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til, hvordan man kan lave statistiske analyser i R. P&aring; kurset vil emner som deskriptiv statistik, normalfordeling og regression blive ber&oslash;rt.</p>
+
+<p>Dette er ikke et statistikkursus, s&aring; et basalt kendskab til statistiske begreber foruds&aelig;ttes.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; statistikkurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi kan n&aring; s&aring; langt som muligt p&aring; kurset. <a href=""https://kubdatalab.github.io/R-statistic/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p><em>Would you like to learn how to carry out statistical analyses using R? Then this course may be for you. The course provides an introduction to how statistical analyses can be conducted in R. Topics covered include descriptive statistics, the normal distribution, and regression.</em></p>
+
+<p><em>This is not a statistics course, so a basic understanding of statistical concepts is required.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. In this statistics course, you will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R. As preparation, it may be beneficial to attend one of our beginner courses.</em></p>
+
+<p><em>It is assumed that you have installed R and Positron/RStudio before the course so that we can make as much progress as possible. <a href=""https://kubdatalab.github.io/R-statistic/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</em></p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is an educational programme aimed at students at Roskilde University and the University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills. It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4540968;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4540968;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;32027;Datalab;44253;Søren Davidsen;sdav@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T06:57:23Z;TRUE;2026-08-20T07:00:00Z;40;37;0;0;37;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_50_38.jpg;NA;NA;0;NA;0;0;1022;Level 2 - Basic / Let øvet;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541125;Dyk ned i data med R  / Dive into data with R;FALSE;2026-08-20T11:00:00Z;2026-08-20T13:00:00Z;2026-05-08T11:29:16Z;"<p>Har du en god basisforst&aring;else af R, og vil du pr&oslash;ve at bruge teknikkerne p&aring; et st&oslash;rre datas&aelig;t?</p>
+
+<p>P&aring; kurset udforsker vi et st&oslash;rre datas&aelig;t ud fra input fra deltagerne. Afh&aelig;ngig af &oslash;nskerne n&aring;r vi ofte omkring emner som simple statistiske metoder og visualiseringer, arbejde med udvalgte dele af data og indl&aelig;sning og kombination af flere Excel-ark.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; kurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi s&aring;dan at vi ikke skal bruge tid p&aring; dette. <a href=""https://kubdatalab.github.io/R-EDA/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p>Do you have a solid basic understanding of R, and would you like to try applying these techniques to a larger dataset?</p>
+
+<p>During the course, we explore a larger dataset based on input from the participants. Depending on preferences, we often cover topics such as simple statistical methods and visualisations, working with selected subsets of data, and importing and combining multiple Excel sheets.</p>
+
+<p>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. You will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R. As preparation, it may be beneficial to attend one of our beginner courses.</p>
+
+<p>It is assumed that you have installed R and Positron/RStudio before the course so that we do not need to spend time on this. <a href=""https://kubdatalab.github.io/R-EDA/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</p>
+
+<p>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is an educational programme aimed at students at Roskilde University and the University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills. It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4541125;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541125;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;36627;R;44253;Søren Davidsen;sdav@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T11:29:16Z;TRUE;2026-08-20T11:00:00Z;40;28;0;0;28;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_52_44.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541125;Dyk ned i data med R  / Dive into data with R;FALSE;2026-08-20T11:00:00Z;2026-08-20T13:00:00Z;2026-05-08T11:29:16Z;"<p>Har du en god basisforst&aring;else af R, og vil du pr&oslash;ve at bruge teknikkerne p&aring; et st&oslash;rre datas&aelig;t?</p>
+
+<p>P&aring; kurset udforsker vi et st&oslash;rre datas&aelig;t ud fra input fra deltagerne. Afh&aelig;ngig af &oslash;nskerne n&aring;r vi ofte omkring emner som simple statistiske metoder og visualiseringer, arbejde med udvalgte dele af data og indl&aelig;sning og kombination af flere Excel-ark.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; kurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi s&aring;dan at vi ikke skal bruge tid p&aring; dette. <a href=""https://kubdatalab.github.io/R-EDA/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p>Do you have a solid basic understanding of R, and would you like to try applying these techniques to a larger dataset?</p>
+
+<p>During the course, we explore a larger dataset based on input from the participants. Depending on preferences, we often cover topics such as simple statistical methods and visualisations, working with selected subsets of data, and importing and combining multiple Excel sheets.</p>
+
+<p>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. You will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R. As preparation, it may be beneficial to attend one of our beginner courses.</p>
+
+<p>It is assumed that you have installed R and Positron/RStudio before the course so that we do not need to spend time on this. <a href=""https://kubdatalab.github.io/R-EDA/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</p>
+
+<p>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is an educational programme aimed at students at Roskilde University and the University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills. It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4541125;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541125;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;38246;Summer School;44253;Søren Davidsen;sdav@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T11:29:16Z;TRUE;2026-08-20T11:00:00Z;40;28;0;0;28;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_52_44.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4541125;Dyk ned i data med R  / Dive into data with R;FALSE;2026-08-20T11:00:00Z;2026-08-20T13:00:00Z;2026-05-08T11:29:16Z;"<p>Har du en god basisforst&aring;else af R, og vil du pr&oslash;ve at bruge teknikkerne p&aring; et st&oslash;rre datas&aelig;t?</p>
+
+<p>P&aring; kurset udforsker vi et st&oslash;rre datas&aelig;t ud fra input fra deltagerne. Afh&aelig;ngig af &oslash;nskerne n&aring;r vi ofte omkring emner som simple statistiske metoder og visualiseringer, arbejde med udvalgte dele af data og indl&aelig;sning og kombination af flere Excel-ark.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkurser</a>. P&aring; kurset har du s&aring;ledes mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R. Derfor kan en god forberedelse v&aelig;re at deltage i et vores begynderkurser.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi s&aring;dan at vi ikke skal bruge tid p&aring; dette. <a href=""https://kubdatalab.github.io/R-EDA/#software-setup"" target=""_blank"">Du kan finde hj&aelig;lp til at installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.&nbsp;</p>
+
+<p><strong>Om sommerskolen</strong></p>
+
+<p>Dette kursus er en del af R Sommerskole. Det er et undervisningstilbud, som er m&aring;lrettet studerende p&aring; Roskilde Universitet og K&oslash;benhavns Universitet. Som deltager p&aring; sommerskolen har du mulighed for at arbejde intensivt med R og p&aring; den m&aring;de tilegne dig gode datakompetencer. Det er op til dig, om du tilmelder dig et eller flere kurser.</p>
+
+<p>&nbsp;</p>
+
+<p>Do you have a solid basic understanding of R, and would you like to try applying these techniques to a larger dataset?</p>
+
+<p>During the course, we explore a larger dataset based on input from the participants. Depending on preferences, we often cover topics such as simple statistical methods and visualisations, working with selected subsets of data, and importing and combining multiple Excel sheets.</p>
+
+<p>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner courses</a>. You will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R. As preparation, it may be beneficial to attend one of our beginner courses.</p>
+
+<p>It is assumed that you have installed R and Positron/RStudio before the course so that we do not need to spend time on this. <a href=""https://kubdatalab.github.io/R-EDA/#software-setup"" target=""_blank"">You can find help with installing R and Positron/RStudio here</a>.</p>
+
+<p>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</p>
+
+<p><strong>About the summer school</strong></p>
+
+<p>This course is part of the R Summer School. It is an educational programme aimed at students at Roskilde University and the University of Copenhagen. As a participant in the summer school, you will have the opportunity to work intensively with R and thereby acquire strong data skills. It is up to you whether you enrol in one or more courses.</p>";https://kubkalender.kb.dk/event/4541125;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4541125;21573;2;Library Lighthouse, Zone 1, Library Lighthouse, Zone 2;41;Nørre Campus;32027;Datalab;44253;Søren Davidsen;sdav@kb.dk;Christian Knudsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;7684;FALSE;TRUE;2026-05-08T11:29:16Z;TRUE;2026-08-20T11:00:00Z;40;28;0;0;28;TRUE;#18E0F2;https://dbjywyrc2efmd.cloudfront.net/misc/1069/events/6416/2026_05_27_12_52_44.jpg;NA;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4540878;Lær at analysere tekster med R / Learn to analyse texts with R;FALSE;2026-08-19T07:00:00Z;2026-08-19T09:00:00Z;2026-05-07T13:09:02Z;"<p>Vil du gerne analysere tekstm&aelig;ngder, der er s&aring; store, at du ikke selv kan n&aring; at l&aelig;se dem? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til begrebet text mining og viser eksempler p&aring;, hvordan det kan anvendes i praksis. P&aring; kurset tager vi udgangspunkt i et samling tekster, men de f&aelig;rdigheder, du l&aelig;rer p&aring; kurset, kan anvendes p&aring; mange andre typer tekst.</p>
 
 <p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkursus</a>. P&aring; tekstanalysekurset har du dermed mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R.</p>
