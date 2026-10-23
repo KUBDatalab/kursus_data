@@ -1,4 +1,29 @@
 id;title;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;audience_1_id;audience_1_name;category_id;category_name;owner_id;owner_name;owner_email;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;registration_form_id;registration_max_guests;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;color;featured_image;featured_image_alt_text;geolocation;registration_cost;more_info;setup_time;teardown_time;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;campus_1;audience_2_id;audience_2_name;audience_3_id;audience_3_name;zoom_email
+4549576;NVivo for absolutte begyndere - på dansk;FALSE;2026-10-22T08:01:00Z;2026-10-22T10:30:00Z;2026-06-12T10:01:37Z;"<p><br />
+Introduktion til programmet NVivo, som er en stor hj&aelig;lp til kvalitativ dataanalyse. NVivo kan bl.a. hj&aelig;lpe dig med at organisere og kode din empiri og litteratur, generere hypoteser, transskribere din lyd/video og meget andet.</p>
+
+<p>PC-versionen af NVivo har mere udvidet&nbsp;funktionalitet end Mac-versionen, men man kan deltage i alle &oslash;velser uanset version, og undervisningen vil ligeledes blive demonstreret i begge.</p>
+
+<p>&nbsp;</p>
+
+<p>Du bedes forud for kurset have installeret den&nbsp;version af NVivo, der hedder NVivo 15.</p>
+
+<p>Det kan du g&oslash;re her til Windows:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15/NVivo.x64.exe</a></p>
+
+<p>Og her til Mac:<br />
+<a href=""https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg"" target=""_blank"">https://download.qsrinternational.com/Software/NVivo15forMac/NVivo.dmg</a></p>
+
+<p>Benyt&nbsp;derefter&nbsp;registreringsn&oslash;gle fra&nbsp;<a href=""https://kunet.ku.dk/self-service/Pages/Software-library.aspx"" target=""_blank"">KU&rsquo;s Softwarebibliotek</a>.</p>
+
+<p><strong>Bem&aelig;rk:</strong> NVivo findes i Sofwarebiblioteket under linket &quot;QSR International - NVivo&quot;.</p>
+
+<p><strong>Du bedes ligeledes forud for kurset gennemg&aring; et par introducerende &oslash;velser, som du kan l&aelig;se om her:<br />
+<a href=""https://absalon.ku.dk/courses/88011"" target=""_blank"">https://absalon.ku.dk/courses/88011</a></strong></p>
+
+<p>&nbsp;</p>
+
+<p>Gennemf&oslash;res ved min. seks tilmeldte.</p>";https://kubkalender.kb.dk/event/4549576;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4549576;98;0;Library Lighthouse, zone 1;41;Nørre Campus;NA;NA;32027;Datalab;40172;Benjamin Derksen;bder@kb.dk;Benjamin Derksen & Lorna Wildgaard;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;35;TRUE;5673;0;FALSE;TRUE;2026-06-12T10:01:37Z;TRUE;2026-10-22T10:30:00Z;35;11;0;0;11;TRUE;#18E0F2;https://lcimages-eu.s3.amazonaws.com/data/feat_img/1069/6416/1644571897.jpg;NA;NA;0;NA;30;30;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4414228;Åbent værksted i Labbet / drop in consultations at KUB Datalab;FALSE;2026-10-21T10:30:00Z;2026-10-21T12:30:00Z;2025-09-04T12:38:48Z;"<p>Having problems importing data? Or cleaning it? Is the structure weird, or are you getting strange error messages when you try to fit a model?</p>
 
 <p>Drop in with your data and your problem, and we will do our best to help you. We offer no opinions on what statistical test you should run on your data. But we will get it to work.&nbsp;</p>
