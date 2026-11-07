@@ -1,4 +1,55 @@
 id;title;visibility;cancelled;allday;start;end;created;description;public;admin;location_id;location_type;location_name;campus_id;campus_name;audience_1_id;audience_1_name;category_id;category_name;owner_id;owner_name;owner_email;presenter;calendar_id;calendar_name;calendar_public;calendar_admin;seats;registration;registration_form_id;registration_max_guests;registration_series_linked;has_registration_opened;registration_open_at;has_registration_closed;registration_close_at;physical_seats;physical_seats_taken;online_seats;online_seats_taken;seats_taken;wait_list;color;featured_image;featured_image_alt_text;geolocation;registration_cost;more_info;setup_time;teardown_time;online_user_id;online_meeting_id;online_host_url;online_join_url;online_join_password;online_provider;campus_1;audience_2_id;audience_2_name;audience_3_id;audience_3_name;zoom_email
+4563007;Lær at analysere tekster med R / Learn to analyse texts with R;public;FALSE;FALSE;2026-11-06T11:00:00Z;2026-11-06T13:30:00Z;2026-06-24T08:39:53Z;"<p>Vil du gerne analysere tekstm&aelig;ngder, der er s&aring; store, at du ikke selv kan n&aring; at l&aelig;se dem? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til begrebet text mining og viser eksempler p&aring;, hvordan det kan anvendes i praksis. P&aring; kurset tager vi udgangspunkt i et samling tekster, men de f&aelig;rdigheder, du l&aelig;rer p&aring; kurset, kan anvendes p&aring; mange andre typer tekst.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkursus</a>. P&aring; tekstanalysekurset har du dermed mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi ikke skal bruge tid p&aring; dette. Du kan finde hj&aelig;lp til at <a href=""https://kubdatalab.github.io/R-text-analysis/#software-setup"" target=""_blank"">installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.</p>
+
+<p>&nbsp;</p>
+
+<p><em>Would you like to analyse volumes of text so large that you cannot read them yourself? Then this course may be for you. The course provides an introduction to the concept of text mining and demonstrates examples of how it can be applied in practice. The course is based on a collection of texts, but the skills you learn can be applied to many other types of text.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner course</a>. In this text analysis course, you will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R.</em></p>
+
+<p><em>It is assumed that you have installed R and Positron/RStudio before the course so that we do not need to spend time on this. You can find help with <a href=""https://kubdatalab.github.io/R-text-analysis/#software-setup"" target=""_blank"">installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</em></p>";https://kubkalender.kb.dk/event/4563007;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4563007;92;0;Søndre Campus: Bibliotekets undervisningslokale 1. sal;39;Søndre Campus;1021;Level 1 - Beginner / Begynder;36627;R;44253;Søren Davidsen;sdav@kb.dk;Søren Davidsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;5673;0;FALSE;TRUE;2026-06-24T08:39:53Z;TRUE;2026-11-04T11:00:00Z;40;9;0;0;9;FALSE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/customers/105/images/R_logo.jpg;R logo;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4563007;Lær at analysere tekster med R / Learn to analyse texts with R;public;FALSE;FALSE;2026-11-06T11:00:00Z;2026-11-06T13:30:00Z;2026-06-24T08:39:53Z;"<p>Vil du gerne analysere tekstm&aelig;ngder, der er s&aring; store, at du ikke selv kan n&aring; at l&aelig;se dem? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til begrebet text mining og viser eksempler p&aring;, hvordan det kan anvendes i praksis. P&aring; kurset tager vi udgangspunkt i et samling tekster, men de f&aelig;rdigheder, du l&aelig;rer p&aring; kurset, kan anvendes p&aring; mange andre typer tekst.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkursus</a>. P&aring; tekstanalysekurset har du dermed mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi ikke skal bruge tid p&aring; dette. Du kan finde hj&aelig;lp til at <a href=""https://kubdatalab.github.io/R-text-analysis/#software-setup"" target=""_blank"">installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.</p>
+
+<p>&nbsp;</p>
+
+<p><em>Would you like to analyse volumes of text so large that you cannot read them yourself? Then this course may be for you. The course provides an introduction to the concept of text mining and demonstrates examples of how it can be applied in practice. The course is based on a collection of texts, but the skills you learn can be applied to many other types of text.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner course</a>. In this text analysis course, you will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R.</em></p>
+
+<p><em>It is assumed that you have installed R and Positron/RStudio before the course so that we do not need to spend time on this. You can find help with <a href=""https://kubdatalab.github.io/R-text-analysis/#software-setup"" target=""_blank"">installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</em></p>";https://kubkalender.kb.dk/event/4563007;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4563007;92;0;Søndre Campus: Bibliotekets undervisningslokale 1. sal;39;Søndre Campus;1021;Level 1 - Beginner / Begynder;38246;Winter School;44253;Søren Davidsen;sdav@kb.dk;Søren Davidsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;5673;0;FALSE;TRUE;2026-06-24T08:39:53Z;TRUE;2026-11-04T11:00:00Z;40;9;0;0;9;FALSE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/customers/105/images/R_logo.jpg;R logo;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
+4563007;Lær at analysere tekster med R / Learn to analyse texts with R;public;FALSE;FALSE;2026-11-06T11:00:00Z;2026-11-06T13:30:00Z;2026-06-24T08:39:53Z;"<p>Vil du gerne analysere tekstm&aelig;ngder, der er s&aring; store, at du ikke selv kan n&aring; at l&aelig;se dem? S&aring; er dette kursus m&aring;ske noget for dig. Kurset giver en introduktion til begrebet text mining og viser eksempler p&aring;, hvordan det kan anvendes i praksis. P&aring; kurset tager vi udgangspunkt i et samling tekster, men de f&aelig;rdigheder, du l&aelig;rer p&aring; kurset, kan anvendes p&aring; mange andre typer tekst.</p>
+
+<p>Kurset ligger i forl&aelig;ngelse af <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">vores begynderkursus</a>. P&aring; tekstanalysekurset har du dermed mulighed for at anvende de ting, du allerede har l&aelig;rt, samtidig med at du udbygger din viden og dine f&aelig;rdigheder i R.</p>
+
+<p>Det foruds&aelig;ttes at du har installeret R og Positron/RStudio f&oslash;r kurset, s&aring;dan at vi ikke skal bruge tid p&aring; dette. Du kan finde hj&aelig;lp til at <a href=""https://kubdatalab.github.io/R-text-analysis/#software-setup"" target=""_blank"">installere R og Positron/RStudio her</a>.</p>
+
+<p>Kurset er som udgangspunkt p&aring; dansk, men hvis en eller flere deltagere &oslash;nsker det, afholdes det p&aring; engelsk.</p>
+
+<p>&nbsp;</p>
+
+<p><em>Would you like to analyse volumes of text so large that you cannot read them yourself? Then this course may be for you. The course provides an introduction to the concept of text mining and demonstrates examples of how it can be applied in practice. The course is based on a collection of texts, but the skills you learn can be applied to many other types of text.</em></p>
+
+<p><em>The course builds on <a href=""https://kubdatalab.github.io/R-intro/"" target=""_blank"">our beginner course</a>. In this text analysis course, you will therefore have the opportunity to apply what you have already learned while expanding your knowledge and skills in R.</em></p>
+
+<p><em>It is assumed that you have installed R and Positron/RStudio before the course so that we do not need to spend time on this. You can find help with <a href=""https://kubdatalab.github.io/R-text-analysis/#software-setup"" target=""_blank"">installing R and Positron/RStudio here</a>.</em></p>
+
+<p><em>The course is primarily conducted in Danish, but if one or more participants prefer, it can be delivered in English.</em></p>";https://kubkalender.kb.dk/event/4563007;https://kubkalender.kb.dk/aevent.php?c=6416&m=edit&event_id=4563007;92;0;Søndre Campus: Bibliotekets undervisningslokale 1. sal;39;Søndre Campus;1021;Level 1 - Beginner / Begynder;32027;Datalab;44253;Søren Davidsen;sdav@kb.dk;Søren Davidsen;6416;Datalab;https://kubkalender.kb.dk/calendar/datalab;https://kubkalender.kb.dk/admin/calendar/6416;40;TRUE;5673;0;FALSE;TRUE;2026-06-24T08:39:53Z;TRUE;2026-11-04T11:00:00Z;40;9;0;0;9;FALSE;#18E0F2;https://dkou0skpxpnwz.cloudfront.net/customers/105/images/R_logo.jpg;R logo;NA;0;NA;0;0;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA
 4414230;Åbent værksted i Labbet / drop in consultations at KUB Datalab;public;FALSE;FALSE;2026-11-04T11:30:00Z;2026-11-04T13:30:00Z;2025-09-04T12:38:48Z;"<p>Having problems importing data? Or cleaning it? Is the structure weird, or are you getting strange error messages when you try to fit a model?</p>
 
 <p>Drop in with your data and your problem, and we will do our best to help you. We offer no opinions on what statistical test you should run on your data. But we will get it to work.&nbsp;</p>
